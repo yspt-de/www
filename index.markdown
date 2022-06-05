@@ -61,6 +61,7 @@ services:
   price: "€ 115"
   price-einheit: Phase
   usps:
+  - Mindestdauer 6 Phasen
   - Eingangscheck vor Ort
   - Hautfaltenmessung vor Ort
   - Mobilitäts- und Flexibilitätstest
@@ -68,7 +69,6 @@ services:
   - Trainingsplan - Training in deinem eigenen Studio
   - Lifestyleanpassungen
   - Supplementempfehlung
-  - Mindestdauer 6 Phasen
 - title: Konsultation
   price: "€ 200"
   price-einheit: Stunde
