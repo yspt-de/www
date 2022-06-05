@@ -20,7 +20,7 @@ concept-steps:
     einfacher, effizienter und nachhaltiger. Das bedeutet, wir ändern eine Mahlzeit
     pro Termin (alle 3-4 Wochen).
 about-h2: Über YSPT
-about-image: "/assets/images/demo/img.jpg"
+about-image: "/assets/images/personal-trainer-muenchen-yusuf.webp"
 about-image-alt: Personal Trainer München Yussuf
 about-excerpt: FEAR EATS THE SOUL. BE BOLD. UNFOLD.
 about-text: |-
