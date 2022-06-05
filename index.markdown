@@ -35,7 +35,7 @@ concept-steps:
 about-h2: Über YSPT
 about-image: "/assets/images/personal-trainer-muenchen-yusuf.webp"
 about-image-alt: Personal Trainer München Yussuf
-about-excerpt: FEAR EATS THE SOUL. BE BOLD. UNFOLD.
+about-excerpt: Der Weg zu deinem Erfolg!
 about-text: |-
   Mein Ziel ist es dir die Grundlagen von Krafttraining und die Prinzipien von gesunder und nachhaltiger Ernährung näher zu bringen.
   Wenn du bereit bist deine Erfolgsgeschichte zu schreiben und erfolgsorientiertes Personal Training erleben möchtest, freue ich mich dich kennen zu lernen.
