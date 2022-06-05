@@ -1,7 +1,8 @@
 ---
 layout: main
 meta-title: Dein Personal Trainer in München
-meta-description: Zu deinem Traumkörper und besserer Performance im Beruf und im Alltag!
+meta-description: Ich begleite dich zu deinem Traumkörper und besserer Performance
+  im Beruf und im Alltag!
 main-h1: Dein Personal Trainer<br />in München
 main-cta: jetzt kostenloses Beratungsgespräch buchen
 concept-h2: UNSER KONZEPT
