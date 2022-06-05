@@ -80,7 +80,7 @@ textarea {height:140px;padding:10px;}
 
 
 /* Welcome block */
-.welcome_block {background:url(/assets/images/demo/welcome.jpg) center top/cover no-repeat;color:#fff;}
+.welcome_block {background:url(/assets/images/personal-trainer-muenchen.webp) center top/cover no-repeat;color:#fff;}
 .welcome_block .wrapper {display:flex;flex-flow:column wrap;justify-content:center;min-height:720px;}
 
 
