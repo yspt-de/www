@@ -1,6 +1,6 @@
 ---
 layout: main
-meta-title: Personal Trainer München - bla bla bla
+meta-title: Dein Personal Trainer in München - bla bla bla
 meta-description: ich bin deine meta description
 main-h1: Personal<br />Trainer<br />München
 main-cta: Termin Vereinbaren
@@ -23,11 +23,9 @@ about-h2: Über YSPT
 about-image: "/assets/images/demo/img.jpg"
 about-image-alt: Personal Trainer München Yussuf
 about-excerpt: FEAR EATS THE SOUL. BE BOLD. UNFOLD.
-about-text: 'Der Yusuf Shafiq Personal Training wurde 2014 gegründet, um mit maximaler
-  Effizienz an sein eigenes Ziel zu kommen. Der YSPT geht über das Training hinaus
-  und beinhaltet Lifestyle, Ernährung, Mode, Musik und Events. Unser Ziel ist es das
-  Beste aus dir herauszuholen, uns weiterzuentwickeln und mit Spaß und Freude, Leben
-  zu verbessern. '
+about-text: |-
+  Mein Ziel ist es dir die Grundlagen von Krafttraining und die Prinzipien von gesunder und nachhaltiger Ernährung näher zu bringen.
+  Wenn du bereit bist deine Erfolgsgeschichte zu schreiben und erfolgsorientiertes Personal Training erleben möchtest, freue ich mich dich kennen zu lernen.
 services-h2: UNSER ANGEBOT
 services:
 - title: Einzelkonsultation
@@ -36,18 +34,18 @@ services:
   usps:
   - 1 einmalige Konsultation
   - 2 Themen nach Absprache
-- title: Progressive Overload Programm
-  price: "€ 499"
-  price-einheit: Stunde
+- title: Coaching Programm
+  price: "€ 690"
+  price-einheit: 6 Termine
   usps:
   - 3 einmalige Konsultation
   - 4 Themen nach Absprache
-- title: Lead your Company
-  price: Auf Anfrage
-  price-einheit: 
+- title: Personal Training
+  price: "120"
+  price-einheit: h
   usps:
-  - 5 einmalige Konsultation
-  - 6 Themen nach Absprache
+  - 5 mindest Dauer 12 Wochen
+  - 6 2x/Woche
 testimonial-text: Die Entwicklung und Veränderung meines Körpers war sehr schnell,
   schon allein durch die reine Ernährungsumstellung zu sehen. Mit kleinen Tricks,
   angepasst auf meine Bedürfnisse konnte ich in kürzester Zeit tolle Ergebnisse erreichen.
