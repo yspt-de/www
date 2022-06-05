@@ -21,7 +21,7 @@ concept-steps:
     />\n    Wie gut ist deine Regeneration?<br />\n    Wie hoch ist dein Testosteron-Level?<br
     />\n    In welchem Tempo geschieht dein Stoffwechsel?<br />\n    Wie hoch sind
     Stressmangement und Energielevel, insbesondere am Morgen?<br />\n    Wie gut kann
-    dein Körper Kohlehydrate verwerten?"
+    dein Körper Kohlenhydrate verwerten?"
 - title: Ernährungsempfehlung
   text: Bei der Ernährung verfolgen wir einen Schritt-für-Schritt Ansatz. Dies ist
     einfacher, effizienter und nachhaltiger. Das bedeutet, wir ändern eine Mahlzeit
