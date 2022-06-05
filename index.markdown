@@ -39,7 +39,11 @@ services:
   price-einheit: 6 Termine
   usps:
   - Eingangscheckup
-  - Mobilitäts- und Flexibilitätstests
+  - Mobilitäts- und Flexibilitätstest
+  - Ernährungsempfehlung
+  - Trainingsplan
+  - Supplementempfehlung
+  - Lifestyleanpassungen
 - title: Personal Training
   price: "€ 120"
   price-einheit: Stunde
