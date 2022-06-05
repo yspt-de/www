@@ -29,19 +29,19 @@ about-text: |-
 services-h2: UNSER ANGEBOT
 services:
 - title: Einzelkonsultation
-  price: "€ 199"
+  price: "€ 200"
   price-einheit: Stunde
   usps:
-  - 1 einmalige Konsultation
-  - 2 Themen nach Absprache
+  - einmalige Konsultation
+  - Themen nach Absprache
 - title: Coaching Programm
   price: "€ 690"
   price-einheit: 6 Termine
   usps:
-  - 3 einmalige Konsultation
-  - 4 Themen nach Absprache
+  - Eingangscheckup
+  - Mobilitäts- und Flexibilitätstests
 - title: Personal Training
-  price: "120"
+  price: "€ 120"
   price-einheit: h
   usps:
   - 5 mindest Dauer 12 Wochen
