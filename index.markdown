@@ -35,7 +35,7 @@ concept-steps:
     Messung eine Supplement-Empfehlung. '
 about-h2: Über YSPT
 about-image: "/assets/images/personal-trainer-muenchen-yusuf.webp"
-about-image-alt: Personal Trainer München Yussuf
+about-image-alt: Personal Trainer München Yusuf
 about-excerpt: Der Weg zu deinem Erfolg!
 about-text: |-
   Mein Ziel ist es dir die Grundlagen von Krafttraining und die Prinzipien von gesunder und nachhaltiger Ernährung näher zu bringen.
