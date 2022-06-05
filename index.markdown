@@ -8,18 +8,18 @@ concept-h2: UNSER KONZEPT
 concept-description: Du suchst einen Coach, um deine Performance zu verbessern? Wir
   unterstützen dich bei deinen Zielen rund um Ernährung, Training und Lifestyle.
 concept-steps:
+- title: Eingangscheck
+  text: Wir beginnen mit einem detaillierten Erstgespräch. Dieses beinhaltet eine
+    Zieldefinierung, Ernährungs- &amp; Schlafanalyse sowie eine Lifestyle-Optimierung.
 - title: Hautfaltenmessung
   text: |-
     "what gets measured, gets managed"
     Nach deinem persönlichen Kennenlerngespräch
-- title: Eingangscheck
-  text: Wir beginnen mit einem detaillierten Erstgespräch. Dieses beinhaltet eine
-    Zieldefinierung, Ernährungs- &amp; Schlafanalyse sowie eine Lifestyle-Optimierung.
 - title: Training
   text: Egal ob Fettreduktion, Muskel- oder Kraftaufbau wir erstellen den passenden
     Trainingsplan für dich. Nach jedem Checkup erhältst du ein neues Trainingsprogramm
     um bestmöglichen Fortschritt zu gewährleisten.
-- title: Ernährung
+- title: Ernährungsempfehlung
   text: Bei der Ernährung verfolgen wir einen Schritt-für-Schritt Ansatz. Dies ist
     einfacher, effizienter und nachhaltiger. Das bedeutet, wir ändern eine Mahlzeit
     pro Termin (alle 3-4 Wochen).
