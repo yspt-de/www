@@ -70,12 +70,12 @@ services:
   - Trainingsplan - Training in deinem eigenen Studio
   - Lifestyleanpassungen
   - Supplementempfehlung
-- title: Konsultation
-  price: "€ 200"
-  price-einheit: Stunde
+- title: Eingangscheck
+  price: "€ 99"
+  price-einheit: einmalig
   usps:
-  - einmalige Konsultation
-  - Themen nach Absprache
+  - Voraussetzung für alle Dienstleistungen
+  - Gesundheitsfragebogen
 testimonial-text: Die Entwicklung und Veränderung meines Körpers war sehr schnell,
   schon allein durch die reine Ernährungsumstellung zu sehen. Mit kleinen Tricks,
   angepasst auf meine Bedürfnisse konnte ich in kürzester Zeit tolle Ergebnisse erreichen.
