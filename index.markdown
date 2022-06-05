@@ -52,12 +52,12 @@ services:
   price: "€ 690"
   price-einheit: 6 Termine
   usps:
-  - Eingangscheckup
+  - Eingangscheck
   - Mobilitäts- und Flexibilitätstest
   - Ernährungsempfehlung
   - Trainingsplan
-  - Supplementempfehlung
   - Lifestyleanpassungen
+  - Supplementempfehlung
 - title: Konsultation
   price: "€ 200"
   price-einheit: Stunde
