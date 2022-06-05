@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.meta-title }}</title>
+    <meta name="description" content="{{ page.meta-description }}">
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+    <!-- Favicon -->
+    <link href="/assets/images/favicon.ico" rel="icon" type="image/x-icon">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.10/jquery.bxslider.min.js"></script>
+    <script src="/assets/js/custom.js"></script>
+
+</head>
+<body>
+
+
+<!-- header -->
+<header class="header">
+    <div class="wrapper">
+        <a class="logo" href="#">&nbsp;</a>
+        <!-- top menu -->
+        <div class="menu_trigger"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></div>
+        <nav>
+            <ul>
+                <li><a data-slide=".concept_about" href="#">Konzept</a></li>
+                <li><a data-slide=".uber_yspt_trigger" href="#">Über Uns</a></li>
+                <li><a data-slide=".offer_quote" href="#">Angebot</a></li>
+                <li><a data-slide=".slider" href="#">Resultate</a></li>
+                <li><a data-slide=".contact_block" href="#">Kontakt</a></li>
+            </ul>
+            <ul class="social_list">
+                <li><a target="_blank" href="https://www.facebook.com/">facebook</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/">instagram</a></li>
+            </ul>
+        </nav>
+        <!-- /top menu -->
+    </div>
+</header>
+<!-- /header -->
+
+
+
+
+<!-- welcome_block -->
+<div class="welcome_block">
+    <div class="wrapper">
+        <h1 title="BE BOLD. UNFOLD.">{{ page.main-h1 }}</h1>
+        <p><a class="button" href="#">{{ page.main-cta }}</a></p>
+    </div>
+</div>
+<!-- /welcome_block -->
+
+
+
+
+<!-- concept_about -->
+<div class="concept_about">
+    <div class="wrapper">
+        <div>
+            <h2 title="Unser Konzept">{{ page.concept-h2 }}</h2>
+            <p class="main-description">{{ page.concept-description }}</p>
+        </div>
+
+
+
+        <div>
+            <ul>
+                {% for item in page.concept-steps %}
+                <li>
+                    <h3 title="Screening">{{ item.title }}</h3>
+                    <p>{{ item.text }}</p>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="wrapper uber_yspt_trigger">
+        <div>
+            <div class="img"><img src="{{ page.about-image }}" alt="{{ page.about-image-alt }}" /></div>
+        </div>
+        <div>
+            <h2 title="ÜBER YSPT">{{ page.about-h2 }}</h2>
+            <h4>{{ page.about-excerpt }}</h4>
+            <p>{{ page.about-text }}</p>
+        </div>
+    </div>
+</div>
+<!-- /concept_about -->
+
+
+
+
+<!-- offer_quote -->
+<div class="offer_quote">
+    <div class="wrapper">
+        <h2 title="Unser Angebot">Unser Angebot</h2>
+        <ul class="offer_list">
+            <li>
+                <h3 title="Einzelkonsultation">Einzelkonsultation</h3>
+                <ul>
+                    <li>einmalige Konsultation</li>
+                    <li>Themen nach Absprache</li>
+                </ul>
+                <p><span>€ 199 </span> / stunde</p>
+            </li>
+            <li>
+                <h3 title="Progressive Overload Programm">Progressive Overload Programm</h3>
+                <ul>
+                    <li>Ernährungsberatung</li>
+                    <li>Hautfaltenmessung</li>
+                    <li>Supplementprotokoll</li>
+                    <li>Trainingsplanung</li>
+                    <li>Vorher / Nachher Bild</li>
+                </ul>
+                <p><span>€ 699  </span> / halbjährlich</p>
+            </li>
+            <li>
+                <h3 title="Lead your Company">Lead your Company</h3>
+                <ul>
+                    <li>individuelle Beratung für dich, dein Unternehmen und deine Mitarbeiter rund um die Themen Ernährung, Training, Gesundheit und Leistungsfähigkeit</li>
+                </ul>
+                <p><strong>auf Anfrage</strong></p>
+            </li>
+        </ul>
+    </div>
+    <div class="wrapper">
+        <div class="slider">
+            <ul>
+                <li>
+                    <figure>
+                        <div class="slide">
+                            <div class="img"><img src="/assets/images/demo/welcome.jpg" alt="" /></div>
+                            <div class="img overlayimg"><img src="/assets/images/demo/img.jpg" alt="" /></div>
+                        </div>
+                        <figcaption>
+                            <h2 title="COACHING RESULTATE">COACHING RESULTATE</h2>
+                            <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <div><img src="/assets/images/demo/welcome.jpg" alt="" /></div>
+                        <figcaption>
+                            <h2 title="COACHING RESULTATE 2">COACHING RESULTATE 2</h2>
+                            <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <div><img src="/assets/images/demo/img.jpg" alt="" /></div>
+                        <figcaption>
+                            <h2 title="COACHING RESULTATE 3">COACHING RESULTATE 3</h2>
+                            <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+        <blockquote>
+            <p>Die Entwicklung und Veränderung meines Körpers war sehr schnell, schon allein durch die reine Ernährungsumstellung zu sehen. Mit kleinen Tricks, angepasst auf meine Bedürfnisse konnte ich in kürzester Zeit tolle Ergebnisse erreichen.</p>
+            <p>Lisa Jena, Marketing Managerin</p>
+        </blockquote>
+    </div>
+</div>
+<!-- /offer_quote -->
+
+
+
+
+<!-- contact_block -->
+<div class="contact_block">
+    <div class="wrapper">
+        <h2 title="KONTAKT">KONTAKT</h2>
+        <div class="contact_info">
+            <p>E-Mail<strong><a href="mailto:info@yspt.de">info@yspt.de</a></strong></p>
+            <p>Standort<strong>München</strong></p>
+            <ul class="social_list">
+                <li><a target="_blank" href="https://www.facebook.com/">facebook</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/">instagram</a></li>
+            </ul>
+            <div>
+                <p>&copy; 2022 YSPT<br /><a href="#">Impressum</a><br /><a href="#">Datenschutz</a></p>
+            </div>
+        </div>
+        <form action="https://formspree.io/f/mqknlwdg" method="POST">
+            <ul>
+                <li>
+                    <label for="name">Name <span>*</span></label>
+                    <input type="text" name="name" id="name" placeholder="" required="" />
+                </li>
+                <li>
+                    <label for="email-address">E-Mail-Adresse <span>*</span></label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="" required="" />
+                </li>
+                <li>
+                    <label for="telefon">Telefon</label>
+                    <input type="text" name="telefon" id="telefon" placeholder="" />
+                </li>
+                <li>
+                    <label for="betreff">Betreff</label>
+                    <input type="text" name="betreff" id="betreff" placeholder="" />
+                </li>
+                <li>
+                    <label for="interessiert">Was interessiert dich?</label>
+                    <select name="interessiert" id="interessiert">
+                        <option selected="" value="Bitte auswählen">Bitte auswählen</option>
+                        <option value="Bitte auswählen 2">Bitte auswählen 2</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="nachricht">Deine Nachricht</label>
+                    <textarea name="nachricht" id="nachricht" placeholder=""></textarea>
+                </li>
+                <li>
+                    <input class="button" type="submit" value="Senden">
+                </li>
+            </ul>
+        </form>
+    </div>
+    <div class="map"></div>
+</div>
+<!-- /contact_block -->
+
+
+</body>
+</html>
