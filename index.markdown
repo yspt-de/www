@@ -12,9 +12,15 @@ concept-steps:
   text: Wir beginnen mit einem detaillierten Erstgespräch. Dieses beinhaltet eine
     Zieldefinierung, Ernährungs- &amp; Schlafanalyse sowie eine Lifestyle-Optimierung.
 - title: Hautfaltenmessung
-  text: |-
-    "what gets measured, gets managed"
-    Nach deinem persönlichen Kennenlerngespräch
+  text: "\"what gets measured, gets managed\"\n\nNach deinem persönlichen Gespräch
+    werden wir eine umfangreiche YPSI Hautfaltenmessung durchführen um deinen Körperfettwert
+    genau zu bestimmen.\n \nMit der Messung der 13 Hautfalten können wir Rückschlüsse
+    auf deinen Hormonhaushalt ziehen. Da der Hormonhaushalt viele Funktionen im Körper
+    steuert, gibt uns die Hautfaltenmessung eine erste Antwort auf folgende Fragen:\n
+    \n\n    Wie tief ist dein Schlaf?\n    Wie gut ist deine Regeneration?\n    Wie
+    hoch ist dein Testosteron-Level?\n    In welchem Tempo geschieht dein Stoffwechsel?\n
+    \   Wie hoch sind Stressmangement und Energielevel, insbesondere am Morgen?\n
+    \   Wie gut kann dein Körper Kohlehydrate verwerten?"
 - title: Ernährungsempfehlung
   text: Bei der Ernährung verfolgen wir einen Schritt-für-Schritt Ansatz. Dies ist
     einfacher, effizienter und nachhaltiger. Das bedeutet, wir ändern eine Mahlzeit
