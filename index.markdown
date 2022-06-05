@@ -49,16 +49,17 @@ services:
   - Laufzeit 12 Wochen - danach monatlich kündbar
   - individuelles 1:1 Personal Training
 - title: Coaching Programm
-  price: "€ 690"
-  price-einheit: 6 Termine
+  price: "€ 115"
+  price-einheit: Phase
   usps:
-  - Eingangscheck
+  - Eingangscheck vor Ort
   - Hautfaltenmessung
   - Mobilitäts- und Flexibilitätstest
   - Ernährungsempfehlung
-  - Trainingsplan
+  - Trainingsplan - Training in deinem eigenen Studio
   - Lifestyleanpassungen
   - Supplementempfehlung
+  - Mindestdauer 6 Phasen
 - title: Konsultation
   price: "€ 200"
   price-einheit: Stunde
