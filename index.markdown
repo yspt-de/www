@@ -42,7 +42,7 @@ services:
   - Mobilitäts- und Flexibilitätstests
 - title: Personal Training
   price: "€ 120"
-  price-einheit: h
+  price-einheit: Stunde
   usps:
   - 5 mindest Dauer 12 Wochen
   - 6 2x/Woche
