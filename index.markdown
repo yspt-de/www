@@ -8,6 +8,9 @@ concept-h2: UNSER KONZEPT
 concept-description: Du suchst einen Coach, um deine Performance zu verbessern? Wir
   unterstützen dich bei deinen Zielen rund um Ernährung, Training und Lifestyle.
 concept-steps:
+- title: Supplementempfehlung
+  text: 'Um noch schneller an dein Ziel zu gelangen bekommst du basierend auf deiner
+    Messung eine Supplement-Empfehlung. '
 - title: Eingangscheck
   text: Wir beginnen mit einem detaillierten Erstgespräch. Dieses beinhaltet eine
     Zieldefinierung, Ernährungs- &amp; Schlafanalyse sowie eine Lifestyle-Optimierung.
