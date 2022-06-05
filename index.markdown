@@ -30,14 +30,6 @@ about-text: 'Der Yusuf Shafiq Personal Training wurde 2014 gegründet, um mit ma
   zu verbessern. '
 services-h2: UNSER ANGEBOT
 services:
-- title: Service 4
-  price: "€ 299 "
-  price-einheit: Monat
-  usps:
-  - bla 4
-  - bla 2
-  - bla 3
-  - bla 1
 - title: Einzelkonsultation
   price: "€ 199"
   price-einheit: Stunde
@@ -56,5 +48,13 @@ services:
   usps:
   - 5 einmalige Konsultation
   - 6 Themen nach Absprache
+- title: Service 4
+  price: "€ 299 "
+  price-einheit: Monat
+  usps:
+  - bla 4
+  - bla 2
+  - bla 3
+  - bla 1
 
 ---
