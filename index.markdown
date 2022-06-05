@@ -53,7 +53,7 @@ services:
   price-einheit: Phase
   usps:
   - Eingangscheck vor Ort
-  - Hautfaltenmessung
+  - Hautfaltenmessung vor Ort
   - Mobilitäts- und Flexibilitätstest
   - Ernährungsempfehlung
   - Trainingsplan - Training in deinem eigenen Studio
