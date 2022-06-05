@@ -72,9 +72,12 @@ services:
   price: "€ 99"
   price-einheit: einmalig
   usps:
-  - ''
   - Voraussetzung für alle Dienstleistungen
   - Gesundheitsfragebogen
+  - Hautfaltenmessung, Körperfettmessung und Analyse
+  - Mobilitätstest
+  - Beweglichkeitstest
+  - Zielsetzung und Strategiebesprechung
 testimonial-text: Die Entwicklung und Veränderung meines Körpers war sehr schnell,
   schon allein durch die reine Ernährungsumstellung zu sehen. Mit kleinen Tricks,
   angepasst auf meine Bedürfnisse konnte ich in kürzester Zeit tolle Ergebnisse erreichen.
