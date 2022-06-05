@@ -14,13 +14,13 @@ concept-steps:
 - title: Hautfaltenmessung
   text: "\"what gets measured, gets managed\"<br />Nach deinem persönlichen Gespräch
     werden wir eine umfangreiche YPSI Hautfaltenmessung durchführen um deinen Körperfettwert
-    genau zu bestimmen.\n \nMit der Messung der 13 Hautfalten können wir Rückschlüsse
+    genau zu bestimmen.<br />\n \nMit der Messung der 13 Hautfalten können wir Rückschlüsse
     auf deinen Hormonhaushalt ziehen. Da der Hormonhaushalt viele Funktionen im Körper
-    steuert, gibt uns die Hautfaltenmessung eine erste Antwort auf folgende Fragen:\n
-    \n\n    Wie tief ist dein Schlaf?\n    Wie gut ist deine Regeneration?\n    Wie
-    hoch ist dein Testosteron-Level?\n    In welchem Tempo geschieht dein Stoffwechsel?\n
-    \   Wie hoch sind Stressmangement und Energielevel, insbesondere am Morgen?\n
-    \   Wie gut kann dein Körper Kohlehydrate verwerten?"
+    steuert, gibt uns die Hautfaltenmessung eine erste Antwort auf folgende Fragen:<br
+    /><br />\n \n\n    Wie tief ist dein Schlaf?<br />\n    Wie gut ist deine Regeneration?<br
+    />\n    Wie hoch ist dein Testosteron-Level?<br />\n    In welchem Tempo geschieht
+    dein Stoffwechsel?<br />\n    Wie hoch sind Stressmangement und Energielevel,
+    insbesondere am Morgen?<br />\n    Wie gut kann dein Körper Kohlehydrate verwerten?"
 - title: Ernährungsempfehlung
   text: Bei der Ernährung verfolgen wir einen Schritt-für-Schritt Ansatz. Dies ist
     einfacher, effizienter und nachhaltiger. Das bedeutet, wir ändern eine Mahlzeit
