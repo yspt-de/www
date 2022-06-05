@@ -42,12 +42,12 @@ about-text: |-
   Wenn du bereit bist deine Erfolgsgeschichte zu schreiben und erfolgsorientiertes Personal Training erleben möchtest, freue ich mich dich kennen zu lernen.
 services-h2: UNSER ANGEBOT
 services:
-- title: Einzelkonsultation
-  price: "€ 200"
+- title: 2x Training pro Woche
+  price: "€115"
   price-einheit: Stunde
   usps:
-  - einmalige Konsultation
-  - Themen nach Absprache
+  - Laufzeit 12 Wochen - danach monatlich kündbar
+  - individuelles 1:1 Personal Training
 - title: Coaching Programm
   price: "€ 690"
   price-einheit: 6 Termine
