@@ -52,7 +52,7 @@ services:
   - Ernährungsempfehlung
   - Lifestyleanpassung
   - Dehn und Mobilisierungs Übungen für bessere Beweglichkeit
-  - individuell auf dich zugeschnittenes Trainigsprogramm welches alle 3-4 Wochen
+  - individuell auf dich zugeschnittenes Trainigsprogramm, welches alle 3-4 Wochen
     auf dich angepasst wird
   - Supplementempfehlung
   - Aminoelektrolythe Getränk während dem Training
