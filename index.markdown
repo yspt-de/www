@@ -1,6 +1,6 @@
 ---
 layout: main
-meta-title: Dein Personal Trainer in München - bla bla bla
+meta-title: Dein Personal Trainer in München
 meta-description: ich bin deine meta description
 main-h1: Dein Personal Trainer<br />in München
 main-cta: jetzt kostenloses Beratungsgespräch buchen
