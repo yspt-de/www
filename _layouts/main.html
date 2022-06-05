@@ -153,10 +153,12 @@
                 </li>
             </ul>
         </div>
+        {% if page.testimonial-text %}
         <blockquote>
-            <p>Die Entwicklung und Veränderung meines Körpers war sehr schnell, schon allein durch die reine Ernährungsumstellung zu sehen. Mit kleinen Tricks, angepasst auf meine Bedürfnisse konnte ich in kürzester Zeit tolle Ergebnisse erreichen.</p>
-            <p>Lisa Jena, Marketing Managerin</p>
+            <p>{{ page.testimonial-text }}</p>
+            <p>{{ page.testimonial-author }}</p>
         </blockquote>
+        {% endif %}
     </div>
 </div>
 <!-- /offer_quote -->

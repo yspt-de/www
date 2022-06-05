@@ -42,5 +42,7 @@ services:
    usps:
     - 5 einmalige Konsultation
     - 6 Themen nach Absprache
+testimonial-text: "Die Entwicklung und Veränderung meines Körpers war sehr schnell, schon allein durch die reine Ernährungsumstellung zu sehen. Mit kleinen Tricks, angepasst auf meine Bedürfnisse konnte ich in kürzester Zeit tolle Ergebnisse erreichen."
+testimonial-author: "Lisa Jena, Marketing Managerin"
 
 ---
