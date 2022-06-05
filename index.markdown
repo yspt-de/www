@@ -74,6 +74,7 @@ services:
   price: "€ 99"
   price-einheit: einmalig
   usps:
+  - ''
   - Voraussetzung für alle Dienstleistungen
   - Gesundheitsfragebogen
 testimonial-text: Die Entwicklung und Veränderung meines Körpers war sehr schnell,
