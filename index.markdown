@@ -15,14 +15,14 @@ concept-steps:
   text: |-
     "what gets measured, gets managed"
     Nach deinem persönlichen Kennenlerngespräch
-- title: Training
-  text: Egal ob Fettreduktion, Muskel- oder Kraftaufbau wir erstellen den passenden
-    Trainingsplan für dich. Nach jedem Checkup erhältst du ein neues Trainingsprogramm
-    um bestmöglichen Fortschritt zu gewährleisten.
 - title: Ernährungsempfehlung
   text: Bei der Ernährung verfolgen wir einen Schritt-für-Schritt Ansatz. Dies ist
     einfacher, effizienter und nachhaltiger. Das bedeutet, wir ändern eine Mahlzeit
     pro Termin (alle 3-4 Wochen).
+- title: Trainingsplan
+  text: Egal ob Fettreduktion, Muskel- oder Kraftaufbau wir erstellen den passenden
+    Trainingsplan für dich. Nach jedem Checkup erhältst du ein neues Trainingsprogramm
+    um bestmöglichen Fortschritt zu gewährleisten.
 about-h2: Über YSPT
 about-image: "/assets/images/personal-trainer-muenchen-yusuf.webp"
 about-image-alt: Personal Trainer München Yussuf
