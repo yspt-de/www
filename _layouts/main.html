@@ -104,32 +104,18 @@
     <div class="wrapper">
         <h2 title="Unser Angebot">Unser Angebot</h2>
         <ul class="offer_list">
+            {% for item in page.services %}
             <li>
-                <h3 title="Einzelkonsultation">Einzelkonsultation</h3>
+                <h3>{{ item.title }}</h3>
                 <ul>
-                    <li>einmalige Konsultation</li>
-                    <li>Themen nach Absprache</li>
+                    {% for usp in item.usps %}
+                    <li>{{ usp }}</li>
+                    {% endfor %}
                 </ul>
-                <p><span>€ 199 </span> / stunde</p>
+
+               <p><span>{{ item.price }} </span> {% if item.price-einheit %} / {{ item.price-einheit }}{% endif %}</p>
             </li>
-            <li>
-                <h3 title="Progressive Overload Programm">Progressive Overload Programm</h3>
-                <ul>
-                    <li>Ernährungsberatung</li>
-                    <li>Hautfaltenmessung</li>
-                    <li>Supplementprotokoll</li>
-                    <li>Trainingsplanung</li>
-                    <li>Vorher / Nachher Bild</li>
-                </ul>
-                <p><span>€ 699  </span> / halbjährlich</p>
-            </li>
-            <li>
-                <h3 title="Lead your Company">Lead your Company</h3>
-                <ul>
-                    <li>individuelle Beratung für dich, dein Unternehmen und deine Mitarbeiter rund um die Themen Ernährung, Training, Gesundheit und Leistungsfähigkeit</li>
-                </ul>
-                <p><strong>auf Anfrage</strong></p>
-            </li>
+            {% endfor %}
         </ul>
     </div>
     <div class="wrapper">
