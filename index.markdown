@@ -2,7 +2,7 @@
 layout: main
 meta-title: Dein Personal Trainer in München - bla bla bla
 meta-description: ich bin deine meta description
-main-h1: Personal<br />Trainer<br />München
+main-h1: Dein<br />Personal<br />Trainer<br />in<br />München
 main-cta: Termin Vereinbaren
 concept-h2: UNSER KONZEPT
 concept-description: Du suchst einen Coach, um deine Performance zu verbessern? Wir
