@@ -58,12 +58,12 @@ services:
   - Trainingsplan
   - Supplementempfehlung
   - Lifestyleanpassungen
-- title: Personal Training
-  price: "€ 120"
+- title: Konsultation
+  price: "€ 200"
   price-einheit: Stunde
   usps:
-  - 5 mindest Dauer 12 Wochen
-  - 6 2x/Woche
+  - einmalige Konsultation
+  - Themen nach Absprache
 testimonial-text: Die Entwicklung und Veränderung meines Körpers war sehr schnell,
   schon allein durch die reine Ernährungsumstellung zu sehen. Mit kleinen Tricks,
   angepasst auf meine Bedürfnisse konnte ich in kürzester Zeit tolle Ergebnisse erreichen.
