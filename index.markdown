@@ -53,6 +53,7 @@ services:
   price-einheit: 6 Termine
   usps:
   - Eingangscheck
+  - Hautfaltenmessung
   - Mobilitäts- und Flexibilitätstest
   - Ernährungsempfehlung
   - Trainingsplan
