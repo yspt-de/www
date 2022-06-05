@@ -8,9 +8,6 @@ concept-h2: UNSER KONZEPT
 concept-description: Du suchst einen Coach, um deine Performance zu verbessern? Wir
   unterstützen dich bei deinen Zielen rund um Ernährung, Training und Lifestyle.
 concept-steps:
-- title: Supplementempfehlung
-  text: 'Um noch schneller an dein Ziel zu gelangen bekommst du basierend auf deiner
-    Messung eine Supplement-Empfehlung. '
 - title: Eingangscheck
   text: Wir beginnen mit einem detaillierten Erstgespräch. Dieses beinhaltet eine
     Zieldefinierung, Ernährungs- &amp; Schlafanalyse sowie eine Lifestyle-Optimierung.
@@ -26,6 +23,9 @@ concept-steps:
   text: Egal ob Fettreduktion, Muskel- oder Kraftaufbau wir erstellen den passenden
     Trainingsplan für dich. Nach jedem Checkup erhältst du ein neues Trainingsprogramm
     um bestmöglichen Fortschritt zu gewährleisten.
+- title: Supplementempfehlung
+  text: 'Um noch schneller an dein Ziel zu gelangen bekommst du basierend auf deiner
+    Messung eine Supplement-Empfehlung. '
 about-h2: Über YSPT
 about-image: "/assets/images/personal-trainer-muenchen-yusuf.webp"
 about-image-alt: Personal Trainer München Yussuf
