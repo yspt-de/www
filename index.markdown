@@ -64,8 +64,6 @@ services:
   usps:
   - Mindestdauer 6 Phasen
   - Eingangscheck vor Ort
-  - Hautfaltenmessung vor Ort
-  - Mobilitäts- und Flexibilitätstest
   - Ernährungsempfehlung
   - Trainingsplan - Training in deinem eigenen Studio
   - Lifestyleanpassungen
