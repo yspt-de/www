@@ -46,12 +46,15 @@ services:
   price: "€115"
   price-einheit: Stunde
   usps:
-  - regelmäßige Hautfaltenmessung, Körperfettmessung und Analyse
   - Laufzeit 12 Wochen - danach monatlich kündbar
   - individuelles 1:1 Personal Training im privaten Studio
+  - regelmäßige Hautfaltenmessung, Körperfettmessung und Analyse
+  - Ernährungsempfehlung
+  - Lifestyleanpassung
   - Dehn und Mobilisierungs Übungen für bessere Beweglichkeit
   - individuell auf dich zugeschnittenes Trainigsprogramm welches alle 3-4 Wochen
     auf dich angepasst wird
+  - Supplementempfehlung
   - Aminoelektrolythe Getränk während dem Training
   - Proteinshake nach dem Training
 - title: Coaching Programm
