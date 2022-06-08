@@ -5,6 +5,7 @@ meta-description: Ich begleite dich zu deinem Traumkörper und besserer Performa
   im Beruf und im Alltag!
 main-h1: Dein Personal Trainer<br />in München
 main-cta: jetzt kostenloses Beratungsgespräch buchen
+main-background: '/assets/images/personal-trainer-muenchen.webp'
 concept-h2: UNSER KONZEPT
 concept-description: Du suchst einen Coach, um deine Performance zu verbessern? Wir
   unterstützen dich bei deinen Zielen rund um Ernährung, Training und Lifestyle.
