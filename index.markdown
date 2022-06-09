@@ -79,6 +79,8 @@ services:
   - Mobilitätstest
   - Beweglichkeitstest
   - Zielsetzung und Strategiebesprechung
+results-comparison-before-image: /assets/images/demo/img.jpg
+results-comparison-after-image: /assets/images/demo/img2.jpg
 testimonial-text: Die Entwicklung und Veränderung meines Körpers war sehr schnell,
   schon allein durch die reine Ernährungsumstellung zu sehen. Mit kleinen Tricks,
   angepasst auf meine Bedürfnisse konnte ich in kürzester Zeit tolle Ergebnisse erreichen.

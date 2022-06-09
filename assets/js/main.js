@@ -1,3 +1,13 @@
+function documentReady(fn) {
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', fn);
+    } else {
+        fn();
+    }
+}
+
+
+
 $(function () {
     // Responsive menu trigger
     $(".menu_trigger").on("click", function () {
@@ -34,65 +44,6 @@ $(function () {
         touchEnabled: false,
     });
 
-    // Light Slide Drad Image
-    function initComparisons() {
-        var x, i;
-        x = document.getElementsByClassName("overlayimg");
-        for (i = 0; i < x.length; i++) {
-            compareImages(x[i]);
-        }
-        function compareImages(img) {
-            var slider,
-                img,
-                clicked = 0,
-                w,
-                h;
-            w = img.offsetWidth;
-            h = img.offsetHeight;
-            img.style.width = w / 2 + "px";
-            slider = document.createElement("DIV");
-            slider.setAttribute("class", "slidetrigger");
-            img.parentElement.insertBefore(slider, img);
-            slider.style.top = h / 2 - slider.offsetHeight / 2 + "px";
-            slider.style.left = w / 2 - slider.offsetWidth / 2 + "px";
-            slider.addEventListener("mousedown", slideReady);
-            window.addEventListener("mouseup", slideFinish);
-            slider.addEventListener("touchstart", slideReady);
-            window.addEventListener("touchend", slideFinish);
-            function slideReady(e) {
-                e.preventDefault();
-                clicked = 1;
-                window.addEventListener("mousemove", slideMove);
-                window.addEventListener("touchmove", slideMove);
-            }
-            function slideFinish() {
-                clicked = 0;
-            }
-            function slideMove(e) {
-                var pos;
-                if (clicked == 0) return false;
-                pos = getCursorPos(e);
-                if (pos < 0) pos = 0;
-                if (pos > w) pos = w;
-                slide(pos);
-            }
-            function getCursorPos(e) {
-                var a,
-                    x = 0;
-                e = e.changedTouches ? e.changedTouches[0] : e;
-                a = img.getBoundingClientRect();
-                x = e.pageX - a.left;
-                x = x - window.pageXOffset;
-                return x;
-            }
-            function slide(x) {
-                img.style.width = x + "px";
-                slider.style.left = img.offsetWidth - slider.offsetWidth / 2 + "px";
-            }
-        }
-    }
-    initComparisons();
-
     // Show/hide input value
     $('input[type="text"], input[type="password"], input[type="email"]').each(function () {
         var valtxt = $(this).attr("value");
@@ -120,6 +71,11 @@ $(function () {
         });
 });
 
+
+
+//
+// Contact form.
+//
 (function() {
     const elementForm = document.querySelector('.jsContactForm');
     const elementSubmit = document.querySelector('.jsContactFormSubmit')
@@ -171,5 +127,90 @@ $(function () {
         }).catch(error => {
             messageError();
         });
+    }
+})();
+
+
+
+//
+// Image comparison slider.
+//
+(function() {
+    const elementsComparison = document.querySelectorAll('.jsImageComparison');
+
+    let activeThumb = null;
+
+    for (const elementComparison of elementsComparison) {
+        initiateSlider(elementComparison);
+    }
+
+    function initiateSlider(elementComparison) {
+        const elementBefore = elementComparison.querySelector('.jsImageComparisonBefore');
+        const elementAfter = elementComparison.querySelector('.jsImageComparisonAfter');
+
+        if (!elementBefore || !elementAfter) {
+            return;
+        }
+
+        const elementThumb = document.createElement('button');
+        elementComparison.insertAdjacentElement('beforeend', elementThumb);
+
+        elementThumb.classList.add('cImageComparison__thumb', 'jsImageComparisonThumb');
+
+        documentReady(() => {
+            const positionAfter = elementComparison.offsetWidth / 2;
+            const positionThumb = (elementComparison.offsetWidth / 2) - (elementThumb.offsetWidth / 2);
+
+            elementComparison.style.setProperty('--cImageComparisonWidth', `${elementComparison.offsetWidth}px`);
+            elementComparison.style.setProperty('--cImageComparisonHeight', `${elementComparison.offsetHeight}px`);
+
+            moveImage(elementAfter, positionAfter);
+            moveThumb(elementThumb, positionThumb);
+        });
+
+        elementThumb.addEventListener('mousedown', pressThumb, false);
+        elementThumb.addEventListener('touchstart', pressThumb, false);
+
+        window.addEventListener('mouseup', releaseThumb, false);
+        window.addEventListener('touchend', releaseThumb, false);
+    }
+
+    function pressThumb(event) {
+        event.preventDefault();
+        document.addEventListener('mousemove', trackThumb, false);
+        document.addEventListener('touchmove', trackThumb, false);
+        activeThumb = event.target;
+    }
+
+    function releaseThumb() {
+        document.removeEventListener('mousemove', trackThumb, false);
+        document.removeEventListener('touchmove', trackThumb, false);
+    }
+
+    function trackThumb(event) {
+        const elementThumb = activeThumb;
+        const elementComparison = elementThumb.parentNode;
+        const elementAfter = elementComparison.querySelector('.jsImageComparisonAfter');
+
+        const rectComparison = elementComparison.getBoundingClientRect();
+
+        const eventThumb = event.changedTouches ? event.changedTouches[0] : event;
+
+        const positionEdge = Math.max(Math.min((eventThumb.pageX - rectComparison.left - window.scrollX), elementComparison.offsetWidth), 0);
+
+        const positionThumb = positionEdge - (elementThumb.offsetWidth / 2);
+        const positionAfter = elementComparison.offsetWidth - positionEdge;
+
+        moveThumb(elementThumb, positionThumb);
+        moveImage(elementAfter, positionAfter);
+    }
+
+    function moveThumb(element, position) {
+        element.style.left = `${position}px`;
+    }
+
+    function moveImage(element, position) {
+        // element.style.clipPath = `polygon(0px 0px, ${position}px 0px, ${position}px 100%, 0px 100%)`;
+        element.style.width = `${position}px`;
     }
 })();
