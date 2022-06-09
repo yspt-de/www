@@ -182,12 +182,57 @@ textarea {height:140px;padding:10px;}
 .social_list li a {display:block;width:30px;height:30px;background:url(/assets/images/blank.gif) center center no-repeat;}
 .social_list li a[href*="facebook"] {background-image:url(/assets/images/icons/facebook.svg);}
 .social_list li a[href*="instagram"] {background-image:url(/assets/images/icons/instagram.svg);}
-.contact_block form {width:66%;background:#fff;box-shadow:0 0 50px rgba(0,0,0,0.12);padding:50px 60px 30px 60px;box-sizing:border-box;}
-.contact_block form ul li {padding-bottom:20px;}
-.contact_block form ul li label {display:block;font-weight:600;padding-bottom:5px;}
-.contact_block form ul li label span {color:#D80E27}
-.contact_block form ul li .button {min-width:140px;}
 .map {height:600px;background:url(/assets/images/demo/map.webp) center center/cover no-repeat;margin-top:-75px;}
+
+.cContactForm {
+    background-color: #fff;
+    box-shadow: 0 0 50px rgb(0 0 0 / 0.12);
+    box-sizing: border-box;
+    display: grid;
+    padding: 20px 20px 0 20px;
+    row-gap: 20px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .cContactForm {
+        padding: 50px 60px 30px 60px;
+        width: 66%;
+    }
+}
+
+.cContactForm__fieldset {
+    border: 0;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    row-gap: 5px;
+}
+
+.cContactForm__label {
+    font-weight: 600;
+}
+
+.cContactForm__label > span {
+    color: #d80e27;
+}
+
+.cContactForm__input {}
+
+.cContactForm__select {}
+
+.cContactForm__textarea {
+    resize: vertical;
+}
+
+.cContactForm__submit {
+    max-width: 140px;
+}
+
+.cContactForm__response {
+    font-weight: 600;
+    padding: 0;
+}
 
 
 
@@ -263,8 +308,5 @@ textarea {height:140px;padding:10px;}
     .contact_info div p {font-size:15px;line-height:24px;}
     .contact_info div p a {margin-left:10px;}
     .contact_info div p br {display:none;}
-    .contact_block form {width:auto;padding:20px 20px 0 20px;}
-    .contact_block form ul li {padding-bottom:15px;}
-    .contact_block form ul li .button {min-width:120px;}
     .map {height:480px;margin-top:-40px;}
 }

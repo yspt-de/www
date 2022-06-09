@@ -13,214 +13,214 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/assets/css/styles.css">
-
-    <!-- JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.10/jquery.bxslider.min.js"></script>
-    <script src="/assets/js/custom.js"></script>
-
 </head>
 <body>
-
-
-<!-- header -->
-<header class="header">
-    <div class="wrapper">
-        <a class="logo" href="#">&nbsp;</a>
-        <!-- top menu -->
-        <div class="menu_trigger"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></div>
-        <nav>
-            <ul>
-                <li><a data-slide=".concept_about" href="#">Konzept</a></li>
-                <li><a data-slide=".uber_yspt_trigger" href="#">Über Uns</a></li>
-                <li><a data-slide=".offer_quote" href="#">Angebot</a></li>
-                <li><a data-slide=".slider" href="#">Resultate</a></li>
-                <li><a data-slide=".contact_block" href="#">Kontakt</a></li>
-            </ul>
-            <ul class="social_list">
-                <li><a target="_blank" href="https://www.facebook.com/">facebook</a></li>
-                <li><a target="_blank" href="https://www.instagram.com/">instagram</a></li>
-            </ul>
-        </nav>
-        <!-- /top menu -->
-    </div>
-</header>
-<!-- /header -->
-
-
-
-
-<!-- welcome_block -->
-<div class="welcome_block">
-    <div class="wrapper">
-        <h1 title="BE BOLD. UNFOLD.">{{ page.main-h1 }}</h1>
-        <p><a class="button" href="#">{{ page.main-cta }}</a></p>
-    </div>
-    <img class="welcome_background" src="{{ page.main-background }}" alt="">
-</div>
-<!-- /welcome_block -->
-
-
-
-
-<!-- concept_about -->
-<div class="concept_about">
-    <div class="wrapper">
-        <div>
-            <h2 title="Unser Konzept">{{ page.concept-h2 }}</h2>
-            <p class="main-description">{{ page.concept-description }}</p>
+    <!-- header -->
+    <header class="header">
+        <div class="wrapper">
+            <a class="logo" href="#">&nbsp;</a>
+            <!-- top menu -->
+            <div class="menu_trigger"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></div>
+            <nav>
+                <ul>
+                    <li><a data-slide=".concept_about" href="#">Konzept</a></li>
+                    <li><a data-slide=".uber_yspt_trigger" href="#">Über Uns</a></li>
+                    <li><a data-slide=".offer_quote" href="#">Angebot</a></li>
+                    <li><a data-slide=".slider" href="#">Resultate</a></li>
+                    <li><a data-slide=".contact_block" href="#">Kontakt</a></li>
+                </ul>
+                <ul class="social_list">
+                    <li><a target="_blank" href="https://www.facebook.com/">facebook</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/">instagram</a></li>
+                </ul>
+            </nav>
+            <!-- /top menu -->
         </div>
+    </header>
+    <!-- /header -->
 
 
 
-        <div>
-            <ul>
-                {% for item in page.concept-steps %}
+
+    <!-- welcome_block -->
+    <div class="welcome_block">
+        <div class="wrapper">
+            <h1 title="BE BOLD. UNFOLD.">{{ page.main-h1 }}</h1>
+            <p><a class="button" href="#">{{ page.main-cta }}</a></p>
+        </div>
+        <img class="welcome_background" src="{{ page.main-background }}" alt="">
+    </div>
+    <!-- /welcome_block -->
+
+
+
+
+    <!-- concept_about -->
+    <div class="concept_about">
+        <div class="wrapper">
+            <div>
+                <h2 title="Unser Konzept">{{ page.concept-h2 }}</h2>
+                <p class="main-description">{{ page.concept-description }}</p>
+            </div>
+
+
+
+            <div>
+                <ul>
+                    {% for item in page.concept-steps %}
+                    <li>
+                        <h3 title="Screening">{{ item.title }}</h3>
+                        <p>{{ item.text }}</p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="wrapper uber_yspt_trigger">
+            <div>
+                <div class="img"><img src="{{ page.about-image }}" alt="{{ page.about-image-alt }}" /></div>
+            </div>
+            <div>
+                <h2 title="ÜBER YSPT">{{ page.about-h2 }}</h2>
+                <h4>{{ page.about-excerpt }}</h4>
+                <p>{{ page.about-text }}</p>
+            </div>
+        </div>
+    </div>
+    <!-- /concept_about -->
+
+
+
+
+    <!-- offer_quote -->
+    <div class="offer_quote">
+        <div class="wrapper">
+            <h2 title="Unser Angebot">Unser Angebot</h2>
+            <ul class="offer_list">
+                {% for item in page.services %}
                 <li>
-                    <h3 title="Screening">{{ item.title }}</h3>
-                    <p>{{ item.text }}</p>
+                    <h3>{{ item.title }}</h3>
+                    <ul>
+                        {% for usp in item.usps %}
+                        <li>{{ usp }}</li>
+                        {% endfor %}
+                    </ul>
+
+                   <p><span>{{ item.price }} </span> {% if item.price-einheit %} / {{ item.price-einheit }}{% endif %}</p>
                 </li>
                 {% endfor %}
             </ul>
         </div>
-    </div>
-    <div class="wrapper uber_yspt_trigger">
-        <div>
-            <div class="img"><img src="{{ page.about-image }}" alt="{{ page.about-image-alt }}" /></div>
-        </div>
-        <div>
-            <h2 title="ÜBER YSPT">{{ page.about-h2 }}</h2>
-            <h4>{{ page.about-excerpt }}</h4>
-            <p>{{ page.about-text }}</p>
-        </div>
-    </div>
-</div>
-<!-- /concept_about -->
-
-
-
-
-<!-- offer_quote -->
-<div class="offer_quote">
-    <div class="wrapper">
-        <h2 title="Unser Angebot">Unser Angebot</h2>
-        <ul class="offer_list">
-            {% for item in page.services %}
-            <li>
-                <h3>{{ item.title }}</h3>
+        <div class="wrapper">
+            <div class="slider">
                 <ul>
-                    {% for usp in item.usps %}
-                    <li>{{ usp }}</li>
-                    {% endfor %}
+                    <li>
+                        <figure>
+                            <div class="slide">
+                                <div class="img"><img src="/assets/images/personal-trainer-muenchen-yusuf.webp" alt="" /></div>
+                                <div class="img overlayimg"><img src="/assets/images/personal-trainer-muenchen-yusuf.webp" alt="" /></div>
+                            </div>
+                            <figcaption>
+                                <h2 title="COACHING RESULTATE">COACHING RESULTATE</h2>
+                                <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <div><img src="/assets/images/personal-trainer-muenchen.webp" alt="personal-trainer-muenchen" /></div>
+                            <figcaption>
+                                <h2 title="COACHING RESULTATE 2">COACHING RESULTATE 2</h2>
+                                <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <div><img src="/assets/images/personal-trainer-muenchen-yusuf.webp" alt="" /></div>
+                            <figcaption>
+                                <h2 title="COACHING RESULTATE 3">COACHING RESULTATE 3</h2>
+                                <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
+                            </figcaption>
+                        </figure>
+                    </li>
                 </ul>
-
-               <p><span>{{ item.price }} </span> {% if item.price-einheit %} / {{ item.price-einheit }}{% endif %}</p>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-    <div class="wrapper">
-        <div class="slider">
-            <ul>
-                <li>
-                    <figure>
-                        <div class="slide">
-                            <div class="img"><img src="/assets/images/personal-trainer-muenchen-yusuf.webp" alt="" /></div>
-                            <div class="img overlayimg"><img src="/assets/images/personal-trainer-muenchen-yusuf.webp" alt="" /></div>
-                        </div>
-                        <figcaption>
-                            <h2 title="COACHING RESULTATE">COACHING RESULTATE</h2>
-                            <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <div><img src="/assets/images/personal-trainer-muenchen.webp" alt="personal-trainer-muenchen" /></div>
-                        <figcaption>
-                            <h2 title="COACHING RESULTATE 2">COACHING RESULTATE 2</h2>
-                            <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <div><img src="/assets/images/personal-trainer-muenchen-yusuf.webp" alt="" /></div>
-                        <figcaption>
-                            <h2 title="COACHING RESULTATE 3">COACHING RESULTATE 3</h2>
-                            <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </div>
-        {% if page.testimonial-text %}
-        <blockquote>
-            <p>{{ page.testimonial-text }}</p>
-            <p>{{ page.testimonial-author }}</p>
-        </blockquote>
-        {% endif %}
-    </div>
-</div>
-<!-- /offer_quote -->
-
-
-
-
-<!-- contact_block -->
-<div class="contact_block">
-    <div class="wrapper">
-        <h2 title="KONTAKT">KONTAKT</h2>
-        <div class="contact_info">
-            <p>E-Mail<strong><a href="mailto:info@yspt.de">info@yspt.de</a></strong></p>
-            <p>Standort<strong>München</strong></p>
-            <ul class="social_list">
-                <li><a target="_blank" href="https://www.facebook.com/">facebook</a></li>
-                <li><a target="_blank" href="https://www.instagram.com/yspt.de">instagram</a></li>
-            </ul>
-            <div>
-                <p>&copy; 2022 YSPT<br /><a href="#">Impressum</a><br /><a href="#">Datenschutz</a></p>
             </div>
+            {% if page.testimonial-text %}
+            <blockquote>
+                <p>{{ page.testimonial-text }}</p>
+                <p>{{ page.testimonial-author }}</p>
+            </blockquote>
+            {% endif %}
         </div>
-        <form action="https://formspree.io/f/mqknlwdg" method="POST">
-            <ul>
-                <li>
-                    <label for="name">Name <span>*</span></label>
-                    <input type="text" name="name" id="name" placeholder="" required="" />
-                </li>
-                <li>
-                    <label for="email-address">E-Mail-Adresse <span>*</span></label>
-                    <input type="email" name="_replyto" id="email-address" placeholder="" required="" />
-                </li>
-                <li>
-                    <label for="telefon">Telefon</label>
-                    <input type="text" name="telefon" id="telefon" placeholder="" />
-                </li>
-                <li>
-                    <label for="betreff">Betreff</label>
-                    <input type="text" name="betreff" id="betreff" placeholder="" />
-                </li>
-                <li>
-                    <label for="interessiert">Was interessiert dich?</label>
-                    <select name="interessiert" id="interessiert">
-                        <option selected="" value="Bitte auswählen">Bitte auswählen</option>
+    </div>
+    <!-- /offer_quote -->
+
+
+
+
+    <!-- contact_block -->
+    <div class="contact_block">
+        <div class="wrapper">
+            <h2 title="KONTAKT">KONTAKT</h2>
+            <div class="contact_info">
+                <p>E-Mail<strong><a href="mailto:info@yspt.de">info@yspt.de</a></strong></p>
+                <p>Standort<strong>München</strong></p>
+                <ul class="social_list">
+                    <li><a target="_blank" href="https://www.facebook.com/">facebook</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/yspt.de">instagram</a></li>
+                </ul>
+                <div>
+                    <p>&copy; 2022 YSPT<br /><a href="#">Impressum</a><br /><a href="#">Datenschutz</a></p>
+                </div>
+            </div>
+
+            <form class="cContactForm jsContactForm" id="contact-form" action="https://formspree.io/f/mqknlwdg" method="POST">
+                <fieldset class="cContactForm__fieldset">
+                    <label class="cContactForm__label" for="contact-form-name">Name <span>*</span></label>
+                    <input class="cContactForm__input" id="contact-form-name" type="text" name="Name" placeholder="" required="" />
+                </fieldset>
+
+                <fieldset class="cContactForm__fieldset">
+                    <label class="cContactForm__label" for="contact-form-email">E-Mail-Adresse <span>*</span></label>
+                    <input class="cContactForm__input" type="email" name="E-Mail-Adresse" id="contact-form-email" placeholder="" required="" />
+                </fieldset>
+
+                <fieldset class="cContactForm__fieldset">
+                    <label class="cContactForm__label" for="contact-form-phone">Telefon</label>
+                    <input class="cContactForm__input" type="text" name="Telefon" id="contact-form-phone" placeholder="" />
+                </fieldset>
+
+                <fieldset class="cContactForm__fieldset">
+                    <label class="cContactForm__label" for="contact-form-subject">Betreff</label>
+                    <input class="cContactForm__input" type="text" name="Betreff" id="contact-form-subject" placeholder="" />
+                </fieldset>
+
+                <fieldset class="cContactForm__fieldset">
+                    <label class="cContactForm__label" for="contact-form-interest">Was interessiert dich?</label>
+                    <select class="cContactForm__select" id="contact-form-interest" name="Was interessiert dich?">
+                        <option value="Bitte auswählen" selected>Bitte auswählen</option>
                         <option value="Bitte auswählen 2">Bitte auswählen 2</option>
                     </select>
-                </li>
-                <li>
-                    <label for="nachricht">Deine Nachricht</label>
-                    <textarea name="nachricht" id="nachricht" placeholder=""></textarea>
-                </li>
-                <li>
-                    <input class="button" type="submit" value="Senden">
-                </li>
-            </ul>
-        </form>
+                </fieldset>
+
+                <fieldset class="cContactForm__fieldset">
+                    <label class="cContactForm__label" for="contact-form-message">Deine Nachricht</label>
+                    <textarea class="cContactForm__textarea" name="Deine Nachricht" id="contact-form-message" placeholder=""></textarea>
+                </fieldset>
+
+                <fieldset class="cContactForm__fieldset">
+                    <button class="cContactForm__submit button jsContactFormSubmit" id="contact-form-submit" type="submit">Senden</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="map"></div>
     </div>
-    <div class="map"></div>
-</div>
-<!-- /contact_block -->
+    <!-- /contact_block -->
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.10/jquery.bxslider.min.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>
