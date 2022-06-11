@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="template-home" lang="en">
 <head>
     <meta charset="utf-8">
     <title>{{ page.meta-title }}</title>
@@ -12,22 +12,22 @@
     <link href="/assets/images/favicon.ico" rel="icon" type="image/x-icon">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
     <!-- header -->
     <header class="header">
         <div class="wrapper">
-            <a class="logo" href="#">&nbsp;</a>
+            <a class="logo" href="/">&nbsp;</a>
             <!-- top menu -->
             <div class="menu_trigger"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></div>
             <nav>
                 <ul>
-                    <li><a data-slide=".concept_about" href="#">Konzept</a></li>
-                    <li><a data-slide=".uber_yspt_trigger" href="#">Über Uns</a></li>
-                    <li><a data-slide=".offer_quote" href="#">Angebot</a></li>
-                    <li><a data-slide=".slider" href="#">Resultate</a></li>
-                    <li><a data-slide=".contact_block" href="#">Kontakt</a></li>
+                    <li><button class="header_button" data-selector="#section-concept">Konzept</button></li>
+                    <li><button class="header_button" data-selector="#section-about">Über Uns</button></li>
+                    <li><button class="header_button" data-selector="#section-offset">Angebot</button></li>
+                    <li><button class="header_button" data-selector="#section-results">Resultate</button></li>
+                    <li><button class="header_button" data-selector="#section-contacts">Kontakt</button></li>
                 </ul>
                 <ul class="social_list">
                     <li><a target="_blank" href="https://www.facebook.com/">facebook</a></li>
@@ -56,7 +56,7 @@
 
 
     <!-- concept_about -->
-    <div class="concept_about">
+    <div class="concept_about" id="section-concept">
         <div class="wrapper">
             <div>
                 <h2 title="Unser Konzept">{{ page.concept-h2 }}</h2>
@@ -76,7 +76,7 @@
                 </ul>
             </div>
         </div>
-        <div class="wrapper uber_yspt_trigger">
+        <div class="wrapper uber_yspt_trigger" id="section-about">
             <div>
                 <div class="img"><img src="{{ page.about-image }}" alt="{{ page.about-image-alt }}" /></div>
             </div>
@@ -93,7 +93,7 @@
 
 
     <!-- offer_quote -->
-    <div class="offer_quote">
+    <div class="offer_quote" id="section-offset">
         <div class="wrapper">
             <h2 title="Unser Angebot">Unser Angebot</h2>
             <ul class="offer_list">
@@ -112,7 +112,7 @@
             </ul>
         </div>
         <div class="wrapper">
-            <div class="slider">
+            <div class="slider" id="section-results">
                 <ul>
                     <li>
                         <figure>
@@ -164,7 +164,7 @@
 
 
     <!-- contact_block -->
-    <div class="contact_block">
+    <div class="contact_block" id="section-contacts">
         <div class="wrapper">
             <h2 title="KONTAKT">KONTAKT</h2>
             <div class="contact_info">
@@ -175,7 +175,7 @@
                     <li><a target="_blank" href="https://www.instagram.com/yspt.de">instagram</a></li>
                 </ul>
                 <div>
-                    <p>&copy; 2022 YSPT<br /><a href="#">Impressum</a><br /><a href="#">Datenschutz</a></p>
+                    <p>&copy; 2022 YSPT<br /><a href="/impressum/">Impressum</a><br /><a href="/datenschutz/">Datenschutz</a></p>
                 </div>
             </div>
 

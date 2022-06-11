@@ -7,35 +7,96 @@ function documentReady(fn) {
 }
 
 
+//
+// Header toggle.
+//
+(function() {
+    const elementTrigger = document.querySelector('.menu_trigger');
+    const elementNav = document.querySelector('.header nav');
+    const elementHtml = document.documentElement;
+
+    if (elementTrigger && elementNav) {
+        elementTrigger.addEventListener('click', (event) => {
+            if (elementTrigger.classList.contains('active')) {
+                elementTrigger.classList.remove('active');
+                elementNav.classList.remove('active');
+                elementHtml.classList.remove('active');
+            } else {
+                elementTrigger.classList.add('active');
+                elementNav.classList.add('active');
+                elementHtml.classList.add('active');
+            }
+        }, false);
+    }
+})();
+
+
+
+//
+// Add background color to header on scrolling.
+//
+(function() {
+    const elementHeader = document.querySelector('.header');
+
+    if (elementHeader) {
+        documentReady(() => {
+            if (window.scrollY > 0) {
+                elementHeader.classList.add('bg');
+            } else {
+                elementHeader.classList.remove('bg');
+            }
+        });
+
+        window.addEventListener('scroll', (event) => {
+            if (window.scrollY > 0) {
+                elementHeader.classList.add('bg');
+            } else {
+                elementHeader.classList.remove('bg');
+            }
+        }, false);
+    }
+})();
+
+
+
+//
+// Header nav smooth scroll to sections.
+//
+(function() {
+    const elementsAnchor = document.querySelectorAll('.header_button[data-selector]');
+
+    const elementTrigger = document.querySelector('.menu_trigger');
+    const elementHeader = document.querySelector('header');
+    const elementNav = document.querySelector('.header nav');
+    const elementHtml = document.documentElement;
+
+    for (const elementAnchor of elementsAnchor) {
+        const elementTarget = document.querySelector(elementAnchor.dataset.selector);
+
+        if (elementTarget) {
+            elementAnchor.addEventListener('click', (event) => {
+                event.preventDefault();
+
+                const headerHeight = elementHeader.offsetHeight;
+                const targetHeight = elementTarget.offsetTop > 0 ? elementTarget.offsetTop : elementTarget.parentElement.offsetTop;
+
+                elementTrigger.classList.remove('active');
+                elementNav.classList.remove('active');
+                elementHtml.classList.remove('active');
+
+                window.scrollTo({
+                    behavior: 'smooth',
+                    left: 0,
+                    top: targetHeight - headerHeight,
+                });
+            }, false);
+        }
+    }
+})();
+
+
 
 $(function () {
-    // Responsive menu trigger
-    $(".menu_trigger").on("click", function () {
-        $(".menu_trigger, .header nav, html").toggleClass("active");
-    });
-
-    // Data slide
-    $(window).on("scroll load", function () {
-        if ($(this).scrollTop() >= 1) {
-            $(".header").addClass("bg");
-        } else {
-            $(".header").removeClass("bg");
-        }
-    });
-
-    // Data slide
-    $("*[data-slide]").on("click", function () {
-        var slideTarget = $(this).attr("data-slide");
-        $("html, body").animate(
-            {
-                scrollTop: $(slideTarget).offset().top - 100,
-            },
-            1000
-        );
-        $(".menu_trigger, .header nav, html").removeClass("active");
-        return false;
-    });
-
     // Slider
     $(".slider ul").bxSlider({
         mode: "fade",
@@ -43,32 +104,6 @@ $(function () {
         adaptiveHeight: true,
         touchEnabled: false,
     });
-
-    // Show/hide input value
-    $('input[type="text"], input[type="password"], input[type="email"]').each(function () {
-        var valtxt = $(this).attr("value");
-        $(this).focus(function () {
-            if ($(this).val() == valtxt) {
-                $(this).val("");
-            }
-        });
-        $(this).blur(function () {
-            if ($(this).val() == "") {
-                $(this).val(valtxt);
-            }
-        });
-    });
-    $("textarea")
-        .focus(function () {
-            if (this.value === this.defaultValue) {
-                this.value = "";
-            }
-        })
-        .blur(function () {
-            if (this.value === "") {
-                this.value = this.defaultValue;
-            }
-        });
 });
 
 
@@ -210,7 +245,6 @@ $(function () {
     }
 
     function moveImage(element, position) {
-        // element.style.clipPath = `polygon(0px 0px, ${position}px 0px, ${position}px 100%, 0px 100%)`;
         element.style.width = `${position}px`;
     }
 })();

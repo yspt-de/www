@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: home
 meta-title: Dein Personal Trainer in München
 meta-description: Ich begleite dich zu deinem Traumkörper und besserer Performance
   im Beruf und im Alltag!
@@ -85,5 +85,4 @@ testimonial-text: Die Entwicklung und Veränderung meines Körpers war sehr schn
   schon allein durch die reine Ernährungsumstellung zu sehen. Mit kleinen Tricks,
   angepasst auf meine Bedürfnisse konnte ich in kürzester Zeit tolle Ergebnisse erreichen.
 testimonial-author: Joe Foe, Marketing Managerin
-
 ---

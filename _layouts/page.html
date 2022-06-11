@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="template-page" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.meta-title }}</title>
+    <meta name="description" content="{{ page.meta-description }}">
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+    <!-- Favicon -->
+    <link href="/assets/images/favicon.ico" rel="icon" type="image/x-icon">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+<!-- header -->
+<header class="header">
+    <div class="wrapper">
+        <a class="logo" href="/">&nbsp;</a>
+    </div>
+</header>
+<!-- /header -->
+
+
+
+<!-- article -->
+<article class="cArticle">
+    <div class="wrapper">
+        {{ content }}
+    </div>
+</article>
+<!-- /article -->
+
+<footer class="cFooter">
+    <div class="wrapper">
+        <div class="cFooter__copyright">© 2022 YSPT</div>
+
+        <div class="cFooter__legal">
+            <a class="oBtn" href="/impressum/">Impressum</a>
+            <a class="oBtn" href="/datenschutz/">Datenschutz</a>
+        </div>
+    </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
