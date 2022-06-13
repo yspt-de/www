@@ -5,7 +5,7 @@ meta-description: Ich begleite dich zu deinem Traumkörper und besserer Performa
   im Beruf und im Alltag!
 main-h1: Dein Personal Trainer<br />in München
 main-cta: jetzt kostenloses Beratungsgespräch buchen
-main-background: '/assets/images/personal-trainer-muenchen.webp'
+main-background: "/assets/images/personal-training-munchen.png"
 concept-h2: UNSER KONZEPT
 concept-description: Du suchst einen Coach, um deine Performance zu verbessern? Wir
   unterstützen dich bei deinen Zielen rund um Ernährung, Training und Lifestyle.
@@ -79,10 +79,11 @@ services:
   - Mobilitätstest
   - Beweglichkeitstest
   - Zielsetzung und Strategiebesprechung
-results-comparison-before-image: /assets/images/demo/img.jpg
-results-comparison-after-image: /assets/images/demo/img2.jpg
+results-comparison-before-image: "/assets/images/demo/img.jpg"
+results-comparison-after-image: "/assets/images/demo/img2.jpg"
 testimonial-text: Die Entwicklung und Veränderung meines Körpers war sehr schnell,
   schon allein durch die reine Ernährungsumstellung zu sehen. Mit kleinen Tricks,
   angepasst auf meine Bedürfnisse konnte ich in kürzester Zeit tolle Ergebnisse erreichen.
 testimonial-author: Joe Foe, Marketing Managerin
+
 ---
