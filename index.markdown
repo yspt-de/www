@@ -36,7 +36,7 @@ concept-steps:
   text: 'Um noch schneller an dein Ziel zu gelangen bekommst du basierend auf deiner
     Messung eine Supplement-Empfehlung. '
 about-h2: Über YSPT
-about-image: "/assets/images/personal-trainer-muenchen-yusuf.webp"
+about-image: "/assets/images/personal-trainer-yusuf-shafiq.jpg"
 about-image-alt: Personal Trainer München Yusuf
 about-excerpt: Der Weg zu deinem Erfolg!
 about-text: |-
