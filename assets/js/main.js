@@ -96,15 +96,20 @@ function documentReady(fn) {
 
 
 
-$(function () {
-    // Slider
-    $(".slider ul").bxSlider({
-        mode: "fade",
-        controls: false,
+// Coaching results carousel.
+(function() {
+    const carouselElement = document.querySelector('.flickity-carousel');
+
+    const carouselInstance = new Flickity(carouselElement, {
         adaptiveHeight: true,
-        touchEnabled: false,
+        cellAlign: 'center',
+        cellSelector: '.flickity-slide',
+        contain: true,
+        draggable: false,
+        fade: true,
+        prevNextButtons: false,
     });
-});
+})();
 
 
 
@@ -233,6 +238,8 @@ $(function () {
 
         const positionEdge = Math.max(Math.min((eventThumb.pageX - rectComparison.left - window.scrollX), elementComparison.offsetWidth), 0);
 
+        elementComparison.dataset.edge = String(positionEdge * 100 / elementComparison.offsetWidth);
+
         const positionThumb = positionEdge - (elementThumb.offsetWidth / 2);
         const positionAfter = elementComparison.offsetWidth - positionEdge;
 
@@ -247,4 +254,32 @@ $(function () {
     function moveImage(element, position) {
         element.style.width = `${position}px`;
     }
+
+    function positionSliders(event) {
+        for (const elementComparison of elementsComparison) {
+            const elementThumb = elementComparison.querySelector('.jsImageComparisonThumb')
+            const elementAfter = elementComparison.querySelector('.jsImageComparisonAfter')
+
+            const positionAttribute = elementComparison.dataset.edge;
+
+            let positionEdge = 0.5;
+            if (typeof positionAttribute === 'string') {
+                positionEdge = parseFloat(positionAttribute);
+            }
+
+            elementComparison.dataset.edge = positionEdge;
+
+            const positionAfter = elementComparison.offsetWidth * positionEdge;
+            const positionThumb = (elementComparison.offsetWidth * positionEdge) - (elementThumb.offsetWidth / 2);
+
+            elementComparison.style.setProperty('--cImageComparisonWidth', `${elementComparison.offsetWidth}px`);
+            elementComparison.style.setProperty('--cImageComparisonHeight', `${elementComparison.offsetHeight}px`);
+
+            moveImage(elementAfter, positionAfter);
+            moveThumb(elementThumb, positionThumb);
+        }
+    }
+
+    window.addEventListener('resize', positionSliders, false);
+    documentReady(positionSliders);
 })();

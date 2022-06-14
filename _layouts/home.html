@@ -112,43 +112,43 @@
             </ul>
         </div>
         <div class="wrapper">
-            <div class="slider" id="section-results">
-                <ul>
-                    <li>
-                        <figure>
-                            <div class="cImageComparison jsImageComparison">
-                                <div class="cImageComparison__before jsImageComparisonBefore">
-                                    <img class="oImg" src="{{ page.results-comparison-before-image }}" alt=""/>
-                                </div>
-                                <div class="cImageComparison__after jsImageComparisonAfter">
-                                    <img class="oImg" src="{{ page.results-comparison-after-image }}" alt=""/>
-                                </div>
+            <div class="flickity-carousel" id="section-results">
+                <div class="flickity-slide">
+                    <figure class="flickity-slide-figure">
+                        <div class="flickity-slide-image cImageComparison jsImageComparison">
+                            <div class="cImageComparison__before jsImageComparisonBefore">
+                                <img class="oImg" src="{{ page.results-comparison-before-image }}" alt=""/>
                             </div>
-                            <figcaption>
-                                <h2 title="COACHING RESULTATE">COACHING RESULTATE</h2>
-                                <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <div><img src="/assets/images/personal-trainer-muenchen.webp" alt="personal-trainer-muenchen" /></div>
-                            <figcaption>
-                                <h2 title="COACHING RESULTATE 2">COACHING RESULTATE 2</h2>
-                                <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <div><img src="/assets/images/personal-trainer-muenchen-yusuf.webp" alt="" /></div>
-                            <figcaption>
-                                <h2 title="COACHING RESULTATE 3">COACHING RESULTATE 3</h2>
-                                <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
-                            </figcaption>
-                        </figure>
-                    </li>
-                </ul>
+                            <div class="cImageComparison__after jsImageComparisonAfter">
+                                <img class="oImg" src="{{ page.results-comparison-after-image }}" alt=""/>
+                            </div>
+                        </div>
+                        <figcaption class="flickity-slide-caption">
+                            <h2 title="COACHING RESULTATE">COACHING RESULTATE</h2>
+                            <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
+                            <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
+                            <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="flickity-slide">
+                    <figure class="flickity-slide-figure">
+                        <div class="flickity-slide-image"><img src="/assets/images/personal-trainer-muenchen.webp" alt="personal-trainer-muenchen" /></div>
+                        <figcaption class="flickity-slide-caption">
+                            <h2 title="COACHING RESULTATE 2">COACHING RESULTATE 2</h2>
+                            <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="flickity-slide">
+                    <figure class="flickity-slide-figure">
+                        <div class="flickity-slide-image"><img src="/assets/images/personal-trainer-muenchen-yusuf.webp" alt="" /></div>
+                        <figcaption class="flickity-slide-caption">
+                            <h2 title="COACHING RESULTATE 3">COACHING RESULTATE 3</h2>
+                            <p>Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab. </p>
+                        </figcaption>
+                    </figure>
+                </div>
             </div>
             {% if page.testimonial-text %}
             <blockquote>
@@ -223,8 +223,8 @@
     <!-- /contact_block -->
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.10/jquery.bxslider.min.js"></script>
+    <script src="https://unpkg.com/flickity@2.3.0/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/flickity-fade@1.0.0/flickity-fade.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
 </html>
