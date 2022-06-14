@@ -177,6 +177,12 @@ textarea {height:140px;padding:10px;}
     margin-bottom: 180px;
 }
 
+@media (min-width: 576px) {
+    .flickity-carousel {
+        --flickity-carousel-image-height: 500px;
+    }
+}
+
 @media (min-width: 768px) {
     .flickity-carousel {
         --flickity-carousel-caption-margin-left: 20px;
@@ -440,8 +446,11 @@ textarea {height:140px;padding:10px;}
 
 
 .cImageComparison {
-    --cImageComparisonHeight: 0px; /* NOTE: Will be set by JS. */
-    --cImageComparisonWidth: 0px; /* NOTE: Will be set by JS. */
+    --cImageComparisonEdge: 0.5;
+    --cImageComparisonHeight: auto; /* NOTE: Will be set by JS. */
+    --cImageComparisonThumbHeight: 42px;
+    --cImageComparisonThumbWidth: 42px;
+    --cImageComparisonWidth: auto; /* NOTE: Will be set by JS. */
     display: grid;
     overflow: hidden;
     position: relative;
@@ -469,6 +478,7 @@ textarea {height:140px;padding:10px;}
     object-position: right;
     right: 0;
     z-index: 60;
+    width: calc(var(--cImageComparisonWidth) - (var(--cImageComparisonWidth) * var(--cImageComparisonEdge)));
 }
 
 .cImageComparison__after .oImg,
@@ -498,14 +508,15 @@ textarea {height:140px;padding:10px;}
     background-image: url(/assets/images/icons/drag.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 42px auto;
+    background-size: var(--cImageComparisonThumbWidth) auto;
     border: 0;
     cursor: ew-resize;
-    height: 42px;
+    height: var(--cImageComparisonThumbHeight);
+    left: calc((var(--cImageComparisonWidth) * var(--cImageComparisonEdge)) - (var(--cImageComparisonThumbWidth) / 2));
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 42px;
+    width: var(--cImageComparisonThumbWidth);
     z-index: 70;
 }
 

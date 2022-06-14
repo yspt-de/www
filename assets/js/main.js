@@ -179,107 +179,78 @@ function documentReady(fn) {
     const elementsComparison = document.querySelectorAll('.jsImageComparison');
 
     let activeThumb = null;
+    let activeAfter = null;
+    let activeComparison = null;
 
-    for (const elementComparison of elementsComparison) {
-        initiateSlider(elementComparison);
-    }
+    function initiateSliders() {
+        for (const elementComparison of elementsComparison) {
+            const elementBefore = elementComparison.querySelector('.jsImageComparisonBefore');
+            const elementAfter = elementComparison.querySelector('.jsImageComparisonAfter');
 
-    function initiateSlider(elementComparison) {
-        const elementBefore = elementComparison.querySelector('.jsImageComparisonBefore');
-        const elementAfter = elementComparison.querySelector('.jsImageComparisonAfter');
+            if (!elementBefore || !elementAfter) {
+                continue;
+            }
 
-        if (!elementBefore || !elementAfter) {
-            return;
+            const elementThumb = document.createElement('button');
+            elementThumb.classList.add('cImageComparison__thumb', 'jsImageComparisonThumb');
+            elementComparison.insertAdjacentElement('beforeend', elementThumb);
+
+            elementThumb.addEventListener('mousedown', pressThumb, false);
+            elementThumb.addEventListener('touchstart', pressThumb, false);
         }
-
-        const elementThumb = document.createElement('button');
-        elementComparison.insertAdjacentElement('beforeend', elementThumb);
-
-        elementThumb.classList.add('cImageComparison__thumb', 'jsImageComparisonThumb');
-
-        documentReady(() => {
-            const positionAfter = elementComparison.offsetWidth / 2;
-            const positionThumb = (elementComparison.offsetWidth / 2) - (elementThumb.offsetWidth / 2);
-
-            elementComparison.style.setProperty('--cImageComparisonWidth', `${elementComparison.offsetWidth}px`);
-            elementComparison.style.setProperty('--cImageComparisonHeight', `${elementComparison.offsetHeight}px`);
-
-            moveImage(elementAfter, positionAfter);
-            moveThumb(elementThumb, positionThumb);
-        });
-
-        elementThumb.addEventListener('mousedown', pressThumb, false);
-        elementThumb.addEventListener('touchstart', pressThumb, false);
 
         window.addEventListener('mouseup', releaseThumb, false);
         window.addEventListener('touchend', releaseThumb, false);
     }
 
     function pressThumb(event) {
+        const elementThumb = event.target;
+        const elementComparison = elementThumb.parentElement;
+        const elementAfter = elementComparison.querySelector('.jsImageComparisonAfter');
+
+        if (!elementThumb.classList.contains('jsImageComparisonThumb') || !elementComparison.classList.contains('jsImageComparison') || elementAfter === null) {
+            return;
+        }
+
         event.preventDefault();
+
+        activeThumb = elementThumb;
+        activeComparison = elementComparison;
+        activeAfter = elementAfter;
+
         document.addEventListener('mousemove', trackThumb, false);
         document.addEventListener('touchmove', trackThumb, false);
-        activeThumb = event.target;
     }
 
     function releaseThumb() {
         document.removeEventListener('mousemove', trackThumb, false);
         document.removeEventListener('touchmove', trackThumb, false);
+
+        activeThumb = null;
+        activeComparison = null;
+        activeAfter = null;
     }
 
     function trackThumb(event) {
-        const elementThumb = activeThumb;
-        const elementComparison = elementThumb.parentNode;
-        const elementAfter = elementComparison.querySelector('.jsImageComparisonAfter');
-
-        const rectComparison = elementComparison.getBoundingClientRect();
+        const rectComparison = activeComparison.getBoundingClientRect();
 
         const eventThumb = event.changedTouches ? event.changedTouches[0] : event;
 
-        const positionEdge = Math.max(Math.min((eventThumb.pageX - rectComparison.left - window.scrollX), elementComparison.offsetWidth), 0);
+        const edgePixels = Math.max(Math.min((eventThumb.pageX - rectComparison.left - window.scrollX), activeComparison.offsetWidth), 0);
+        const edgePercentage = edgePixels * 100 / activeComparison.offsetWidth
 
-        elementComparison.dataset.edge = String(positionEdge * 100 / elementComparison.offsetWidth);
-
-        const positionThumb = positionEdge - (elementThumb.offsetWidth / 2);
-        const positionAfter = elementComparison.offsetWidth - positionEdge;
-
-        moveThumb(elementThumb, positionThumb);
-        moveImage(elementAfter, positionAfter);
+        activeComparison.style.setProperty('--cImageComparisonEdge', String(edgePercentage / 100));
     }
 
-    function moveThumb(element, position) {
-        element.style.left = `${position}px`;
-    }
-
-    function moveImage(element, position) {
-        element.style.width = `${position}px`;
-    }
-
-    function positionSliders(event) {
+    function setSize() {
         for (const elementComparison of elementsComparison) {
-            const elementThumb = elementComparison.querySelector('.jsImageComparisonThumb')
-            const elementAfter = elementComparison.querySelector('.jsImageComparisonAfter')
-
-            const positionAttribute = elementComparison.dataset.edge;
-
-            let positionEdge = 0.5;
-            if (typeof positionAttribute === 'string') {
-                positionEdge = parseFloat(positionAttribute);
-            }
-
-            elementComparison.dataset.edge = positionEdge;
-
-            const positionAfter = elementComparison.offsetWidth * positionEdge;
-            const positionThumb = (elementComparison.offsetWidth * positionEdge) - (elementThumb.offsetWidth / 2);
-
             elementComparison.style.setProperty('--cImageComparisonWidth', `${elementComparison.offsetWidth}px`);
             elementComparison.style.setProperty('--cImageComparisonHeight', `${elementComparison.offsetHeight}px`);
-
-            moveImage(elementAfter, positionAfter);
-            moveThumb(elementThumb, positionThumb);
         }
     }
 
-    window.addEventListener('resize', positionSliders, false);
-    documentReady(positionSliders);
+    initiateSliders();
+
+    window.addEventListener('resize', setSize, false);
+    documentReady(setSize);
 })();
