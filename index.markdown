@@ -80,7 +80,7 @@ services:
   - Lifestyleanpassungen
   - Supplementempfehlung
 results-comparison-before-image: "/assets/images/rustam-vorher-foto.jpg"
-results-comparison-after-image: "/assets/images/demo/img2.jpg"
+results-comparison-after-image: "/assets/images/rustam-nachher-foto.jpg"
 testimonial-text: Yusuf hat mir auf meinem persönlichen Weg bisher unglaublich weitergeholfen.
   Er bringt mir viel über das richtige Training und die richtige Ernährung bei. Entwickelt
   einen auf mich persönlich zugeschnittenen Trainingsplan, den ich auch umsetzen kann
