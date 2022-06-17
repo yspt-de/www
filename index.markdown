@@ -60,7 +60,7 @@ services:
   - Aminoelektrolythe Getränk während dem Training
   - Proteinshake nach dem Training
 - title: Coaching Programm
-  price: "€ 115"
+  price: ab € 115
   price-einheit: Phase
   usps:
   - Mindestdauer 6 Phasen - 1 Phase 3-4 Wochen
