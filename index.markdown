@@ -44,6 +44,16 @@ about-text: |-
   Wenn du bereit bist deine Erfolgsgeschichte zu schreiben und erfolgsorientiertes Personal Training erleben möchtest, freue ich mich dich kennen zu lernen.
 services-h2: UNSER ANGEBOT
 services:
+- title: Eingangscheck
+  price: "€ 99"
+  price-einheit: einmalig
+  usps:
+  - Voraussetzung für alle Dienstleistungen
+  - Gesundheitsfragebogen
+  - Hautfaltenmessung, Körperfettmessung und Analyse
+  - Mobilitätstest
+  - Beweglichkeitstest
+  - Zielsetzung und Strategiebesprechung
 - title: Personal Training
   price: ab 460€
   price-einheit: Monat
@@ -68,16 +78,6 @@ services:
   - Trainingsplan - Training in deinem eigenen Studio
   - Lifestyleanpassungen
   - Supplementempfehlung
-- title: Eingangscheck
-  price: "€ 99"
-  price-einheit: einmalig
-  usps:
-  - Voraussetzung für alle Dienstleistungen
-  - Gesundheitsfragebogen
-  - Hautfaltenmessung, Körperfettmessung und Analyse
-  - Mobilitätstest
-  - Beweglichkeitstest
-  - Zielsetzung und Strategiebesprechung
 results-comparison-before-image: "/assets/images/demo/img.jpg"
 results-comparison-after-image: "/assets/images/demo/img2.jpg"
 testimonial-text: Die Entwicklung und Veränderung meines Körpers war sehr schnell,
