@@ -64,7 +64,6 @@ services:
   price-einheit: Phase
   usps:
   - Mindestdauer 6 Phasen - 1 Phase 3-4 Wochen
-  - Eingangscheck vor Ort
   - Ernährungsempfehlung
   - Trainingsplan - Training in deinem eigenen Studio
   - Lifestyleanpassungen
