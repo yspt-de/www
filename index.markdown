@@ -79,7 +79,7 @@ services:
   - Trainingsplan - Training in deinem eigenen Studio
   - Lifestyleanpassungen
   - Supplementempfehlung
-results-comparison-before-image: "/assets/images/demo/img.jpg"
+results-comparison-before-image: "/assets/images/rustam-vorher-foto.jpg"
 results-comparison-after-image: "/assets/images/demo/img2.jpg"
 testimonial-text: Yusuf hat mir auf meinem persönlichen Weg bisher unglaublich weitergeholfen.
   Er bringt mir viel über das richtige Training und die richtige Ernährung bei. Entwickelt
