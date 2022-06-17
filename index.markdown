@@ -81,12 +81,17 @@ services:
   - Supplementempfehlung
 results-comparison-before-image: "/assets/images/demo/img.jpg"
 results-comparison-after-image: "/assets/images/demo/img2.jpg"
-testimonial-text: |-
-  Seit einigen Monaten trainiere ich regelmäßig mit Yusuf. Vor allem seine große fachliche Kompetenz im Bereich der Hautfaltenmessung, der Ernährungsberatung und dem Krafttraining haben mich gleich von Anfang an überzeugt. Bei seinem Before & After Trainingsprogramm erfolgt dazu eine regelmäßige Hautfaltenmessung – Yusuf entwickelt daraus einen für mich individuell abgestimmten und sehr strukturierten Trainings- und Ernährungsplan und berät mich dazu mit wertvollen Tipps, Trainingsübungen und Ernährungshacks. Er nimmt sich dabei viel Zeit und geht auf meine über die Zeit hinweg verändernden Trainingsbedürfnisse optimal ein, um so meine gesetzten Ziele zu erreichen. Man merkt hier sofort seine fundierte Ausbildung und sein großes Know-how.
-
-  Allein in dieser kurzen Zeit sind meine Fortschritte enorm, was mich positiv überrascht hat und mich umso mehr motiviert. Yusuf ist ein sehr sympatischer Coach, der einem einfach, fundiert und mit viel Leidenschaft die Balance zwischen effektivem Krafttraining & gesunder Ernährung vermittelt und in die Tat umsetzt. Er ist immer hilfsbereit und steht mit Rat und Tat zur Seite - es macht immer großen Spaß mit ihm zu trainieren :-) Ich mache allgemein viel Sport und auch schon länger Krafttraining – auch mithilfe von diversen PT-Trainings-Apps - aber nichts kommt an die Trainingserfolge mit Yusuf heran. Ich fühle mich fitter, besser, kräftiger und freue mich schon sehr auf meine nächsten „Personal Bests“ mit Yusuf.
-
-  Wer einen professionellen PT sucht, der sich neben dem Training auch noch hervorragend mit Ernährung & Supplements auskennt und sich auf die individuellen Bedürfnisse einstellt, der ist bei Yusuf auf jeden Fall bestens aufgehoben. Ich kann Yusuf zu 100% weiterempfehlen.
-testimonial-author: Aleks B. Marketing Chef
+testimonial-text: Yusuf hat mir auf meinem persönlichen Weg bisher unglaublich weitergeholfen.
+  Er bringt mir viel über das richtige Training und die richtige Ernährung bei. Entwickelt
+  einen auf mich persönlich zugeschnittenen Trainingsplan, den ich auch umsetzen kann
+  und der mir Spaß macht. Durch die individuelle Festlegung von Zielen und die regelmäßigen
+  Messungen kann ich meinen Fortschritt sehr gut messen, was mich super motiviert
+  dran zu bleiben auch wenn man mal ein Motivationstief hat. Das gemeinsame Training
+  mit Yusuf macht mega viel Spaß und bringt mich an mein Leistungsmaximum, wodurch
+  ich mich im Training stark steigern kann. Er ist ein super sympathischer, offener,
+  begeisternder und kompetenter Trainer und ich bin unglaublich froh, dass er mich
+  auf meinem Weg begleitet. Vielen Dank Yusuf, ich freue mich schon sehr auf die weitere
+  gemeinsame Zeit mit dir!
+testimonial-author: Felix B. Unternehmensberater
 
 ---
