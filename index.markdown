@@ -44,9 +44,9 @@ about-text: |-
   Wenn du bereit bist deine Erfolgsgeschichte zu schreiben und erfolgsorientiertes Personal Training erleben möchtest, freue ich mich dich kennen zu lernen.
 services-h2: UNSER ANGEBOT
 services:
-- title: 2x Training pro Woche
-  price: "€115"
-  price-einheit: Stunde
+- title: Personal Training
+  price: ab 460€
+  price-einheit: Monat
   usps:
   - Laufzeit 12 Wochen - danach monatlich kündbar
   - individuelles 1:1 Personal Training im privaten Studio
