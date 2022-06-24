@@ -5,7 +5,7 @@ meta-description: Ich unterstütze vielbeschäftigte Unternehmer & Selbstständi
   Traumkörper in kürzester Zeit zu erreichen.
 main-h1: Dein Personal Trainer<br />in München
 main-cta: jetzt kostenloses Beratungsgespräch buchen
-main-background: "/assets/images/personal-training-munchen.png"
+main-background: "/assets/images/dscf8106.JPG"
 concept-h2: UNSER KONZEPT
 concept-description: Du suchst einen Coach, um deine Performance zu verbessern? Wir
   unterstützen dich mit einem ganzheitlichen Ansatz bei deinen Zielen rund um Ernährung,
