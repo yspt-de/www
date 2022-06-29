@@ -80,7 +80,7 @@ services:
   - Supplementempfehlung
 results-comparison-before-image: "/assets/images/rustam-vorher-foto.jpg"
 results-comparison-after-image: "/assets/images/rustam-nacher.jpg"
-testimonial-text: Ich kennen Yusuf jetzt schon seit vielen Jahren. Seit 2020 begleitet
+testimonial-text: Ich kenne Yusuf jetzt schon seit vielen Jahren. Seit 2020 begleitet
   er mich im Bereich Krafttraining, Schlaf, Ernährung und Regeneration. Sein außergewöhnliches
   Fachwissen erstaunt und überrascht mich immer wieder.Die Fortschritte, die ich stetig
   mache, fühlen sich mühelos an, da die Trainingspläne und Ernährungstipps exakt auf
