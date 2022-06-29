@@ -6,7 +6,7 @@ meta-description: Ich unterstütze vielbeschäftigte Unternehmer & Selbstständi
 main-h1: Dein Personal Trainer<br />in München
 main-cta: jetzt kostenloses Beratungsgespräch buchen
 main-background: "/assets/images/dscf8106.JPG"
-concept-h2: Unser Konzept
+concept-h2: 'Unser Konzept '
 concept-description: ''
 concept-steps:
 - title: Eingangscheck
