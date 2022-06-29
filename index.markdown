@@ -80,17 +80,16 @@ services:
   - Supplementempfehlung
 results-comparison-before-image: "/assets/images/rustam-vorher-foto.jpg"
 results-comparison-after-image: "/assets/images/rustam-nacher.jpg"
-testimonial-text: Yusuf hat mir auf meinem persönlichen Weg bisher unglaublich weitergeholfen.
-  Er bringt mir viel über das richtige Training und die richtige Ernährung bei. Entwickelt
-  einen auf mich persönlich zugeschnittenen Trainingsplan, den ich auch umsetzen kann
-  und der mir Spaß macht. Durch die individuelle Festlegung von Zielen und die regelmäßigen
-  Messungen kann ich meinen Fortschritt sehr gut messen, was mich super motiviert
-  dran zu bleiben auch wenn man mal ein Motivationstief hat. Das gemeinsame Training
-  mit Yusuf macht mega viel Spaß und bringt mich an mein Leistungsmaximum, wodurch
-  ich mich im Training stark steigern kann. Er ist ein super sympathischer, offener,
-  begeisternder und kompetenter Trainer und ich bin unglaublich froh, dass er mich
-  auf meinem Weg begleitet. Vielen Dank Yusuf, ich freue mich schon sehr auf die weitere
-  gemeinsame Zeit mit dir!
-testimonial-author: Felix B. Unternehmensberater
+testimonial-text: Ich kennen Yusuf jetzt schon seit vielen Jahren. Seit 2020 begleitet
+  er mich im Bereich Krafttraining, Schlaf, Ernährung und Regeneration. Sein außergewöhnliches
+  Fachwissen erstaunt und überrascht mich immer wieder.Die Fortschritte, die ich stetig
+  mache, fühlen sich mühelos an, da die Trainingspläne und Ernährungstipps exakt auf
+  mein Life-Style als selbstständiger Business Trainer, Achtsamkeits-Trainer und Meditations-Coach
+  angepasst sind.Dadurch bleibe ich motiviert und kann so regelmäßig kleine Erfolge
+  feiern. Die Zeit, die ich investiere lohnt sich immer!Ich kann die Zusammenarbeit
+  mit Yusuf wärmsten empfehlen. Er ist nicht nur fachlich top, er ist auch menschlich
+  mit seiner einfühlsamen Art ein hervorragender Begleiter. Der eigene Erfolg liegt
+  ihm stets sehr am Herzen
+testimonial-author: Ilja K. Meditations Coach
 
 ---
