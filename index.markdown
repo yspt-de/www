@@ -8,8 +8,7 @@ main-cta: jetzt kostenloses Beratungsgespräch buchen
 main-background: "/assets/images/dscf8106.JPG"
 concept-h2: YS Personal Training
 concept-description: Ich unterstütze vielbeschäftigte Unternehmer & Selbständige ihren
-  Traumkörper in kürzester Zeit zu erreichen. Ich unterstütze dich mit einem ganzheitlichen
-  Ansatz bei deinen Zielen rund um Ernährung, Training und Lifestyle.
+  Traumkörper in kürzester Zeit zu erreichen.
 concept-steps:
 - title: Eingangscheck
   text: Wir beginnen mit einem detaillierten Erstgespräch. Dieses beinhaltet eine
