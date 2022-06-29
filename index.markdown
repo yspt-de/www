@@ -86,10 +86,10 @@ testimonial-text: Ich kenne Yusuf jetzt schon seit vielen Jahren. Seit 2020 begl
   mache, fühlen sich mühelos an, da die Trainingspläne und Ernährungstipps exakt auf
   mein Life-Style als selbstständiger Business Trainer, Achtsamkeits-Trainer und Meditations-Coach
   angepasst sind.Dadurch bleibe ich motiviert und kann so regelmäßig kleine Erfolge
-  feiern. Die Zeit, die ich investiere lohnt sich immer!Ich kann die Zusammenarbeit
-  mit Yusuf wärmsten empfehlen. Er ist nicht nur fachlich top, er ist auch menschlich
+  feiern. Die Zeit, die ich investiere lohnt sich immer! Ich kann die Zusammenarbeit
+  mit Yusuf wärmstens empfehlen. Er ist nicht nur fachlich top, er ist auch menschlich
   mit seiner einfühlsamen Art ein hervorragender Begleiter. Der eigene Erfolg liegt
-  ihm stets sehr am Herzen
+  ihm stets sehr am Herzen.
 testimonial-author: Ilja K. Meditations Coach
 
 ---
