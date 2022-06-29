@@ -38,10 +38,11 @@ about-h2: Über YSPT
 about-image: "/assets/images/personal-trainer-yusuf-shafiq.jpg"
 about-image-alt: Personal Trainer München Yusuf
 about-excerpt: Yusuf Shafiq Personal Training
-about-text: |-
-  Yusuf Shafiq Personal Training wurde 2016 gegründet um erfolgsorientiertes Personal Training anzubieten.<br />
-  YSPT unterstützt dich mit einem ganzheitlichen Ansatz bei deinen Zielen rund um Ernährung, Training und Lifestyle.<br />
-  Unser Ziel ist es das Beste aus dir herauszuholen, uns weiterzuentwickeln und mit Spaß und Freude, Leben zu verbessern.
+about-text: "Yusuf Shafiq Personal Training wurde 2016 gegründet um erfolgsorientiertes
+  Personal Training anzubieten.<br />\nYSPT unterstützt dich mit einem ganzheitlichen
+  Ansatz bei deinen Zielen rund um Ernährung, Training und Lifestyle.<br />\nUnser
+  Ziel ist es das Beste aus dir herauszuholen, uns weiterzuentwickeln und mit Spaß
+  und Freude, Leben zu verbessern. "
 services-h2: UNSER ANGEBOT
 services:
 - title: Eingangscheck
