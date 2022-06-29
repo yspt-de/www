@@ -7,8 +7,7 @@ main-h1: Dein Personal Trainer<br />in München
 main-cta: jetzt kostenloses Beratungsgespräch buchen
 main-background: "/assets/images/dscf8106.JPG"
 concept-h2: Mein Konzept
-concept-description: Ich unterstütze vielbeschäftigte Unternehmer & Selbständige ihren
-  Traumkörper in kürzester Zeit zu erreichen.
+concept-description: ''
 concept-steps:
 - title: Eingangscheck
   text: Wir beginnen mit einem detaillierten Erstgespräch. Dieses beinhaltet eine
