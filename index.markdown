@@ -81,7 +81,7 @@ services:
   - Supplementempfehlung
 results-comparison-before-image: "/assets/images/rustam-vorher-foto.jpg"
 results-comparison-after-image: "/assets/images/rustam-nacher.jpg"
-testimonial-text: Ich kenne Yusuf jetzt schon seit vielen Jahren. Seit 2020 begleitet
+testimonial-text: 'Ich kenne Yusuf jetzt schon seit vielen Jahren. Seit 2020 begleitet
   er mich im Bereich Krafttraining, Schlaf, Ernährung und Regeneration. Sein außergewöhnliches
   Fachwissen erstaunt und überrascht mich immer wieder.Die Fortschritte, die ich stetig
   mache, fühlen sich mühelos an, da die Trainingspläne und Ernährungstipps exakt auf
@@ -90,7 +90,7 @@ testimonial-text: Ich kenne Yusuf jetzt schon seit vielen Jahren. Seit 2020 begl
   feiern. Die Zeit, die ich investiere lohnt sich immer! Ich kann die Zusammenarbeit
   mit Yusuf wärmstens empfehlen. Er ist nicht nur fachlich top, er ist auch menschlich
   mit seiner einfühlsamen Art ein hervorragender Begleiter. Der eigene Erfolg liegt
-  ihm stets sehr am Herzen.
+  ihm stets sehr am Herzen. '
 testimonial-author: Ilja K. Meditations Coach
 
 ---
