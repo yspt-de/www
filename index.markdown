@@ -52,7 +52,7 @@ services:
   price-einheit: Monat
   usps:
   - Laufzeit 12 Wochen - danach monatlich kündbar
-  - individuelles 1:1 Personal Training im privaten Studio
+  - individuelles 1:1 Personal Training
   - regelmäßige Hautfaltenmessung, Körperfettmessung und Analyse
   - Ernährungsempfehlung
   - Lifestyleanpassung
@@ -66,7 +66,7 @@ services:
   price: ab € 115
   price-einheit: Phase
   usps:
-  - Mindestdauer 6 Phasen - 1 Phase 3-4 Wochen
+  - 'Mindestdauer 6 Phasen '
   - Ernährungsempfehlung
   - Trainingsplan - Training in deinem eigenen Studio
   - Lifestyleanpassungen
