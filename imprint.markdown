@@ -20,7 +20,7 @@ Beantragt
 
 Tel: [+491628083684](tel:+491628083684)  
 E-Mail: [info@yspt.de  
-](mailto:info@yspt.de)[www.yspt.de](https://www.yspt.de/)
+](mailto:info@yspt.de)Web: [www.yspt.de](https://www.yspt.de/)
 
 Inhaltlich verantwortlich gemäß § 10 MDStV:  
 Yusuf Shafiq
