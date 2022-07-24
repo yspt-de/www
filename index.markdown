@@ -74,6 +74,9 @@ services:
 results-comparison-before-image: "/assets/images/rustam-vorher-foto.jpg"
 results-comparison-after-image: "/assets/images/rustam-nacher.jpg"
 results:
+- title: COACHING RESULTATE 2
+  text: COACHING RESULTATE 2
+  images: []
 - title: COACHING RESULTATE
   text: Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch
     und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30
