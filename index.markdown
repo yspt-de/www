@@ -13,16 +13,9 @@ concept-steps:
   text: Wir beginnen mit einem detaillierten Erstgespräch. Dieses beinhaltet eine
     Zieldefinierung, Ernährungs- &amp; Schlafanalyse sowie eine Lifestyle-Optimierung.
 - title: Hautfaltenmessung
-  text: "\"What gets measured, gets managed\"<br /><br />Nach deinem persönlichen
-    Gespräch werden wir eine umfangreiche YPSI Hautfaltenmessung durchführen um deinen
-    Körperfettwert genau zu bestimmen.<br />\n \nMit der Messung der 13 Hautfalten
-    können wir Rückschlüsse auf deinen Hormonhaushalt ziehen. Da der Hormonhaushalt
-    viele Funktionen im Körper steuert, gibt uns die Hautfaltenmessung eine erste
-    Antwort auf folgende Fragen:<br /><br />\n \n\n    Wie tief ist dein Schlaf?<br
-    />\n    Wie gut ist deine Regeneration?<br />\n    Wie hoch ist dein Testosteron-Level?<br
-    />\n    In welchem Tempo geschieht dein Stoffwechsel?<br />\n    Wie hoch sind
-    Stressmangement und Energielevel, insbesondere am Morgen?<br />\n    Wie gut kann
-    dein Körper Kohlenhydrate verwerten?"
+  text: '"What gets measured, gets managed"<br /><br />Nach deinem persönlichen Gespräch
+    werden wir eine umfangreiche YPSI Hautfaltenmessung durchführen um deinen Körperfettwert
+    genau zu bestimmen.<br />'
 - title: Ernährungsempfehlung
   text: Bei der Ernährung verfolgen wir einen Schritt-für-Schritt Ansatz. Dies ist
     einfacher, effizienter und nachhaltiger. Das bedeutet, wir ändern eine Mahlzeit
@@ -82,18 +75,22 @@ services:
 results-comparison-before-image: "/assets/images/rustam-vorher-foto.jpg"
 results-comparison-after-image: "/assets/images/rustam-nacher.jpg"
 results:
-  - title: COACHING RESULTATE
-    text: Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab.
-    images:
-      - src: /assets/images/rustam-vorher-foto.jpg
-        alt: Vorher
-      - src: /assets/images/rustam-nacher.jpg
-        alt: Nacher
-  - title: COACHING RESULTATE 2
-    text: Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30 Kilo ab.
-    images:
-      - src: /assets/images/personal-trainer-yusuf-shafiq.jpg
-        alt: personal-trainer-muenchen
+- title: COACHING RESULTATE
+  text: Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch
+    und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30
+    Kilo ab.
+  images:
+  - src: "/assets/images/rustam-vorher-foto.jpg"
+    alt: Vorher
+  - src: "/assets/images/rustam-nacher.jpg"
+    alt: Nacher
+- title: COACHING RESULTATE 2
+  text: Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch
+    und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30
+    Kilo ab.
+  images:
+  - src: "/assets/images/personal-trainer-yusuf-shafiq.jpg"
+    alt: personal-trainer-muenchen
 testimonial-text: 'Ich kenne Yusuf jetzt schon seit vielen Jahren. Seit 2020 begleitet
   er mich im Bereich Krafttraining, Schlaf, Ernährung und Regeneration. Sein außergewöhnliches
   Fachwissen erstaunt und überrascht mich immer wieder.Die Fortschritte, die ich stetig
