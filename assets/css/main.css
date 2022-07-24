@@ -321,7 +321,7 @@ textarea {height:140px;padding:10px;}
 .social_list li a {display:block;width:30px;height:30px;background:url(/assets/images/blank.gif) center center no-repeat;}
 .social_list li a[href*="facebook"] {background-image:url(/assets/images/icons/facebook.svg);}
 .social_list li a[href*="instagram"] {background-image:url(/assets/images/icons/instagram.svg);}
-.map {height:600px;background:url(/assets/images/demo/map.webp) center center/cover no-repeat;margin-top:-75px;}
+.map {height:600px;background:url(/assets/images/demo/personal-trainer-nymphenburger-strasse.webp) center center/cover no-repeat;margin-top:-75px;}
 
 /* Media Queries */
 /* Tablets and mobiles */
@@ -329,7 +329,6 @@ textarea {height:140px;padding:10px;}
     /* Concept about */
     .concept_about .wrapper > div:first-of-type {padding-left:0;}
 }
-
 
 /* Mobile portrait and landscape modes */
 @media only screen and (max-width: 767px) {
