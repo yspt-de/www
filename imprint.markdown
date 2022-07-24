@@ -9,9 +9,9 @@ permalink: "/impressum/"
 
 ### Angaben gemäß § 5 TMG
 
-Yusuf Shafiq   
-Nymphenburger Straße 20a**  
-**80335 München
+Yusuf Shafiq  
+Nymphenburger Straße 20a  
+80335 München
 
 USt.-ID Nr. gemäß § 27 a  
 Beantragt
