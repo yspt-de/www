@@ -83,13 +83,6 @@ results:
     alt: Vorher
   - src: "/assets/images/rustam-nacher.jpg"
     alt: Nacher
-- title: COACHING RESULTATE 2
-  text: Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch
-    und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30
-    Kilo ab.
-  images:
-  - src: "/assets/images/personal-trainer-yusuf-shafiq.jpg"
-    alt: personal-trainer-muenchen
 testimonial-text: 'Ich kenne Yusuf jetzt schon seit vielen Jahren. Seit 2020 begleitet
   er mich im Bereich Krafttraining, Schlaf, Ernährung und Regeneration. Sein außergewöhnliches
   Fachwissen erstaunt und überrascht mich immer wieder.Die Fortschritte, die ich stetig
