@@ -31,10 +31,10 @@ about-image: "/assets/images/personal-trainer-yusuf-shafiq.jpg"
 about-image-alt: Personal Trainer München Yusuf
 about-excerpt: Yusuf Shafiq Personal Training
 about-text: "Yusuf Shafiq Personal Training wurde 2016 gegründet um erfolgsorientiertes
-  Personal Training anzubieten.<br />\nYSPT unterstützt dich mit einem ganzheitlichen
-  Ansatz bei deinen Zielen rund um Ernährung, Training und Lifestyle.<br />\nUnser
-  Ziel ist es das Beste aus dir herauszuholen, uns weiterzuentwickeln und mit Spaß
-  und Freude, Leben zu verbessern. "
+  Personal Training anzubieten.\n\nYSPT unterstützt dich mit einem ganzheitlichen
+  Ansatz bei deinen Zielen rund um Ernährung, Training und Lifestyle.\n\nUnser Ziel
+  ist es das Beste aus dir herauszuholen, uns weiterzuentwickeln und mit Spaß und
+  Freude, Leben zu verbessern. "
 services-h2: UNSER ANGEBOT
 services:
 - title: Eingangscheck
@@ -88,14 +88,14 @@ results:
   images: []
 testimonial-text: 'Ich kenne Yusuf jetzt schon seit vielen Jahren. Seit 2020 begleitet
   er mich im Bereich Krafttraining, Schlaf, Ernährung und Regeneration. Sein außergewöhnliches
-  Fachwissen erstaunt und überrascht mich immer wieder.Die Fortschritte, die ich stetig
-  mache, fühlen sich mühelos an, da die Trainingspläne und Ernährungstipps exakt auf
-  mein Life-Style als selbstständiger Business Trainer, Achtsamkeits-Trainer und Meditations-Coach
-  angepasst sind.Dadurch bleibe ich motiviert und kann so regelmäßig kleine Erfolge
-  feiern. Die Zeit, die ich investiere lohnt sich immer! Ich kann die Zusammenarbeit
-  mit Yusuf wärmstens empfehlen. Er ist nicht nur fachlich top, er ist auch menschlich
-  mit seiner einfühlsamen Art ein hervorragender Begleiter. Der eigene Erfolg liegt
-  ihm stets sehr am Herzen. '
+  Fachwissen erstaunt und überrascht mich immer wieder. Die Fortschritte, die ich
+  stetig mache, fühlen sich mühelos an, da die Trainingspläne und Ernährungstipps
+  exakt auf mein Life-Style als selbstständiger Business Trainer, Achtsamkeits-Trainer
+  und Meditations-Coach angepasst sind.Dadurch bleibe ich motiviert und kann so regelmäßig
+  kleine Erfolge feiern. Die Zeit, die ich investiere lohnt sich immer! Ich kann die
+  Zusammenarbeit mit Yusuf wärmstens empfehlen. Er ist nicht nur fachlich top, er
+  ist auch menschlich mit seiner einfühlsamen Art ein hervorragender Begleiter. Der
+  eigene Erfolg liegt ihm stets sehr am Herzen. '
 testimonial-author: Ilja K. Meditations Coach
 
 ---
