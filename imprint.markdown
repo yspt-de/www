@@ -18,7 +18,7 @@ Beantragt
 
 ### Kontakt
 
-[Tel.: +49 (89) 550549 0](tel:+491628083684)  
+Tel: [+491628083684](tel:+491628083684)  
 E-Mail: [info@yspt.de  
 ](mailto:info@yspt.de)[www.yspt.de](https://www.yspt.de/)
 
