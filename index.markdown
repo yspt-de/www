@@ -13,9 +13,8 @@ concept-steps:
   text: Wir beginnen mit einem detaillierten Erstgespräch. Dieses beinhaltet eine
     Zieldefinierung, Ernährungs- &amp; Schlafanalyse sowie eine Lifestyle-Optimierung.
 - title: Hautfaltenmessung
-  text: '"What gets measured, gets managed"<br /><br />Nach deinem persönlichen Gespräch
-    werden wir eine umfangreiche YPSI Hautfaltenmessung durchführen um deinen Körperfettwert
-    genau zu bestimmen.<br />'
+  text: Nach deinem persönlichen Gespräch werden wir eine umfangreiche YPSI Hautfaltenmessung
+    durchführen um deinen Körperfettwert genau zu bestimmen.
 - title: Ernährungsempfehlung
   text: Bei der Ernährung verfolgen wir einen Schritt-für-Schritt Ansatz. Dies ist
     einfacher, effizienter und nachhaltiger. Das bedeutet, wir ändern eine Mahlzeit
