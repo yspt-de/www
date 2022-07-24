@@ -74,9 +74,6 @@ services:
 results-comparison-before-image: "/assets/images/rustam-vorher-foto.jpg"
 results-comparison-after-image: "/assets/images/rustam-nacher.jpg"
 results:
-- title: COACHING RESULTATE 2
-  text: COACHING RESULTATE 2
-  images: []
 - title: COACHING RESULTATE
   text: Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch
     und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30
@@ -86,6 +83,9 @@ results:
     alt: Vorher
   - src: "/assets/images/rustam-nacher.jpg"
     alt: Nacher
+- title: COACHING RESULTATE 2
+  text: COACHING RESULTATE 2
+  images: []
 testimonial-text: 'Ich kenne Yusuf jetzt schon seit vielen Jahren. Seit 2020 begleitet
   er mich im Bereich Krafttraining, Schlaf, Ernährung und Regeneration. Sein außergewöhnliches
   Fachwissen erstaunt und überrascht mich immer wieder.Die Fortschritte, die ich stetig
