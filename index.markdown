@@ -75,9 +75,9 @@ results-comparison-before-image: "/assets/images/rustam-vorher-foto.jpg"
 results-comparison-after-image: "/assets/images/rustam-nacher.jpg"
 results:
 - title: COACHING RESULTATE
-  text: Andreas wollte etwas an der damaligen Situation ändern. Nach einem Erstgespräch
-    und mehreren intensiven Trainings verteilt über 24 Wochen nahm Andreas fast 30
-    Kilo ab.
+  text: Rustam hat innerhalb von 8 Monaten 39,7 KG abgenommen. Er hat sein großes
+    Ziel die Aufnahme Prüfung zum Fallschirmjäger bestanden. Sein Energielevel ist
+    von 2/10 auf 8/10 hoch.
   images:
   - src: "/assets/images/rustam-vorher-foto.jpg"
     alt: Vorher
