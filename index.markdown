@@ -85,7 +85,9 @@ results:
     alt: Nacher
 - title: COACHING RESULTATE 2
   text: COACHING RESULTATE 2
-  images: []
+  images:
+  - alt: ''
+    src: "/assets/images/coaching-vorher-nachher-foto.png"
 testimonial-text: 'Ich kenne Yusuf jetzt schon seit vielen Jahren. Seit 2020 begleitet
   er mich im Bereich Krafttraining, Schlaf, Ernährung und Regeneration. Sein außergewöhnliches
   Fachwissen erstaunt und überrascht mich immer wieder. Die Fortschritte, die ich
