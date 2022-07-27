@@ -83,8 +83,9 @@ results:
     alt: Vorher
   - src: "/assets/images/rustam-nacher.jpg"
     alt: Nacher
-- title: COACHING RESULTATE 2
-  text: COACHING RESULTATE 2
+- title: COACHING RESULTATE
+  text: Katrin hat innerhalb unserer Zusammenarbeit 6,8KG abgenommen. Sie hat neue
+    gesunde und nachhaltige Routinen in ihren Alltag integriert.
   images:
   - alt: ''
     src: "/assets/images/coaching-vorher-nachher-foto.png"
