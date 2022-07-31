@@ -1,8 +1,8 @@
 ---
 layout: home
 meta-title: Dein Personal Trainer in München
-meta-description: Ich unterstütze vielbeschäftigte Unternehmer & Selbstständige Ihren
-  Traumkörper in kürzester Zeit zu erreichen.
+meta-description: Wieder selbstbewusst und schmerzfrei mit Deinem Traumkörper durchs
+  Leben gehen.
 main-h1: Erreiche deine Ziele!
 main-cta: jetzt kostenloses Beratungsgespräch buchen
 main-background: "/assets/images/dscf8106.JPG"
