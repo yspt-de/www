@@ -51,7 +51,7 @@ services:
   price: ab 480€
   price-einheit: Monat
   usps:
-  - Laufzeit 12 Wochen
+  - Mindestlaufzeit 12 Wochen
   - individuelles 1:1 Personal Training
   - regelmäßige Hautfaltenmessung, Körperfettmessung und Analyse
   - Ernährungsempfehlung
