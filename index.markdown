@@ -89,16 +89,9 @@ results:
   images:
   - alt: ''
     src: "/assets/images/coaching-vorher-nachher-foto.png"
-testimonial-text: 'Ich kenne Yusuf jetzt schon seit vielen Jahren. Seit 2020 begleitet
-  er mich im Bereich Krafttraining, Schlaf, Ernährung und Regeneration. Sein außergewöhnliches
-  Fachwissen erstaunt und überrascht mich immer wieder. Die Fortschritte, die ich
-  stetig mache, fühlen sich mühelos an, da die Trainingspläne und Ernährungstipps
-  exakt auf mein Life-Style als selbstständiger Business Trainer, Achtsamkeits-Trainer
-  und Meditations-Coach angepasst sind.Dadurch bleibe ich motiviert und kann so regelmäßig
-  kleine Erfolge feiern. Die Zeit, die ich investiere lohnt sich immer! Ich kann die
-  Zusammenarbeit mit Yusuf wärmstens empfehlen. Er ist nicht nur fachlich top, er
-  ist auch menschlich mit seiner einfühlsamen Art ein hervorragender Begleiter. Der
-  eigene Erfolg liegt ihm stets sehr am Herzen. '
-testimonial-author: Ilja K. Meditations Coach
+testimonial-text: |-
+  Seit einigen Monaten trainiere ich regelmäßig mit Yusuf. Vor allem seine große fachliche Kompetenz im Bereich der Hautfaltenmessung, der Ernährungsberatung und dem Krafttraining haben mich gleich von Anfang an überzeugt. Bei seinem Before & After Trainingsprogramm erfolgt dazu eine regelmäßige Hautfaltenmessung – Yusuf entwickelt daraus einen für mich individuell abgestimmten und sehr strukturierten Trainings- und Ernährungsplan und berät mich dazu mit wertvollen Tipps, Trainingsübungen und Ernährungshacks. Er nimmt sich dabei viel Zeit und geht auf meine über die Zeit hinweg verändernden Trainingsbedürfnisse optimal ein, um so meine gesetzten Ziele zu erreichen. Man merkt hier sofort seine fundierte Ausbildung und sein großes Know-how.
+  Wer einen professionellen PT sucht, der sich neben dem Training auch noch hervorragend mit Ernährung & Supplements auskennt und sich auf die individuellen Bedürfnisse einstellt, der ist bei Yusuf auf jeden Fall bestens aufgehoben. Ich kann Yusuf zu 100% weiterempfehlen.
+testimonial-author: Aleks B. Marketing Chef
 
 ---
