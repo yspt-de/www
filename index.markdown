@@ -48,10 +48,10 @@ services:
   - Beweglichkeitstest
   - Zielsetzung und Strategiebesprechung
 - title: Personal Training
-  price: ab 460€
+  price: ab 480€
   price-einheit: Monat
   usps:
-  - Laufzeit 12 Wochen - danach monatlich kündbar
+  - Laufzeit 12 Wochen
   - individuelles 1:1 Personal Training
   - regelmäßige Hautfaltenmessung, Körperfettmessung und Analyse
   - Ernährungsempfehlung
