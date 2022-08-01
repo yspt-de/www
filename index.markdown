@@ -66,7 +66,7 @@ services:
   price: ab € 115
   price-einheit: Phase
   usps:
-  - 'Mindestdauer 6 Phasen '
+  - 'Mindestlaufzeit 6 Phasen '
   - Ernährungsempfehlung
   - Trainingsplan - Training in deinem eigenen Studio
   - Lifestyleanpassungen
