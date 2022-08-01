@@ -27,7 +27,7 @@ concept-steps:
   text: 'Um noch schneller an dein Ziel zu gelangen bekommst du basierend auf deiner
     Messung eine Supplement-Empfehlung. '
 about-h2: Über YSPT
-about-image: "/assets/images/personal-trainer-yusuf-shafiq.jpg"
+about-image: "/assets/images/personal-training-munchen.png"
 about-image-alt: Personal Trainer München Yusuf
 about-excerpt: Yusuf Shafiq Personal Training
 about-text: "Yusuf Shafiq Personal Training wurde 2016 gegründet um erfolgsorientiertes
