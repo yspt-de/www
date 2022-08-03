@@ -1,6 +1,6 @@
 ---
 layout: home
-meta-title: Yusuf Shafiq I Personal Training in München
+meta-title: Personal Training München I Yusuf Shafiq
 meta-description: Wieder selbstbewusst und schmerzfrei mit Deinem Traumkörper durchs
   Leben gehen.
 main-h1: Trotz Stress zum Traumkörper
