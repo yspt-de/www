@@ -1,6 +1,6 @@
 ---
 layout: home
-meta-title: Dein Personal Trainer in München
+meta-title: Yusuf Shafiq I Personal Training & Coaching
 meta-description: Wieder selbstbewusst und schmerzfrei mit Deinem Traumkörper durchs
   Leben gehen.
 main-h1: Erreiche deine Ziele!
