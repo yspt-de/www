@@ -6,7 +6,7 @@ meta-description: Wieder selbstbewusst und schmerzfrei mit Deinem Traumkörper d
 main-h1: In 12 Wochen zum Erfolg
 main-cta: jetzt kostenloses Beratungsgespräch buchen
 main-background: "/assets/images/dscf8106.JPG"
-concept-h2: 'Unser Konzept '
+concept-h2: YSPT System
 concept-description: ''
 concept-steps:
 - title: Eingangscheck
