@@ -47,10 +47,11 @@ Hinweis zur verantwortlichen Stelle
 
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
-Yusuf Shafiq  
-Nymphenburger Straße 20a
+Yusuf Shafiq
 
-80335 München
+Ligsalzstraße 5
+
+82131 Gauting
 
 E-Mail: info@yspt.de
 
