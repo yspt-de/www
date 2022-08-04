@@ -10,8 +10,8 @@ permalink: "/impressum/"
 ### Angaben gemäß § 5 TMG
 
 Yusuf Shafiq  
-Nymphenburger Straße 20a  
-80335 München
+Ligsalzstraße 5  
+82131 Gauting
 
 USt.-ID Nr. gemäß § 27 a  
 Beantragt
