@@ -16,7 +16,7 @@ concept-steps:
   text: Nach deinem persönlichen Gespräch werden wir eine umfangreiche YPSI Hautfaltenmessung
     durchführen um deinen Körperfettwert genau zu bestimmen.
 - title: Ernährungsempfehlung
-  text: Bei der Ernährung verfolgen wir einen Schritt-für-Schritt Ansatz. Dies ist
+  text: Bei der Ernährung verfolge ich einen Schritt-für-Schritt Ansatz. Dies ist
     einfacher, effizienter und nachhaltiger. Das bedeutet, wir ändern eine Mahlzeit
     pro Termin (alle 3-4 Wochen).
 - title: Trainingsplan
