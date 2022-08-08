@@ -1,9 +1,9 @@
 ---
 layout: home
 meta-title: Personal Training München I Yusuf Shafiq
-meta-description: Wieder selbstbewusst und schmerzfrei mit Deinem Traumkörper durchs
-  Leben gehen.
-main-h1: In 12 Wochen zum Erfolg
+meta-description: Wieder selbstbewusst und schmerzfrei mit deinem Körper durchs Leben
+  gehen
+main-h1: Wieder selbstbewusst und schmerzfrei mit deinem Körper durchs Leben gehen
 main-cta: jetzt kostenloses Beratungsgespräch buchen
 main-background: "/assets/images/dscf8106.JPG"
 concept-h2: YSPT System
