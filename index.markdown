@@ -5,7 +5,7 @@ meta-description: Wieder selbstbewusst und schmerzfrei mit deinem Körper durchs
   gehen
 main-h1: in 12 wochen zum erfolg
 main-cta: jetzt kostenloses Beratungsgespräch buchen
-main-background: "/assets/images/dscf8106.JPG"
+main-background: "/assets/images/personal-training-yusuf-shafiq.png"
 concept-h2: YSPT System
 concept-description: ''
 concept-steps:
