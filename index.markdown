@@ -26,7 +26,7 @@ concept-steps:
 - title: Supplementempfehlung
   text: 'Um noch schneller an dein Ziel zu gelangen bekommst du basierend auf deiner
     Messung eine Supplement-Empfehlung. '
-about-h2: Über YSPT
+about-h2: Mein Angebot
 about-image: "/assets/images/yusuf-shafiq-personal-training.png"
 about-image-alt: Personal Trainer München Yusuf
 about-excerpt: Yusuf Shafiq Personal Training
