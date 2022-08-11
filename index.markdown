@@ -35,7 +35,7 @@ about-text: "Yusuf Shafiq Personal Training wurde 2018 gegründet um erfolgsorie
   Ansatz bei deinen Zielen rund um Ernährung, Training und Lifestyle.<br>\n\nMein
   Ziel ist es das Beste aus dir herauszuholen, mich weiterzuentwickeln und mit Spaß
   und Freude, Leben zu verbessern. "
-services-h2: YSPT ANGEBOT
+services-h2: Test
 services:
 - title: Eingangscheck
   price: "€ 99"
