@@ -4,7 +4,7 @@ meta-title: Personal Training München I Yusuf Shafiq
 meta-description: Wieder selbstbewusst und schmerzfrei mit deinem Körper durchs Leben
   gehen
 main-h1: in 12 wochen zum erfolg
-main-cta: jetzt kostenloses Beratungsgespräch buchen
+main-cta: Jetzt loslegen
 main-background: "/assets/images/personal-training-munchen.jpg"
 concept-h2: YSPT System
 concept-description: ''
